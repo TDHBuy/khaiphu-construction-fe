@@ -1,0 +1,35 @@
+# Build outputs
+.next/
+out/
+build/
+
+# Dependencies (huge, never useful)
+node_modules/
+
+# Lock files (binary-like noise)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Generated / type declarations
+next-env.d.ts
+*.tsbuildinfo
+*.d.ts
+
+# Environment & secrets
+.env*
+*.pem
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS / tooling noise
+.DS_Store
+.vercel
+coverage/
+
+# Git internals
+.git/
