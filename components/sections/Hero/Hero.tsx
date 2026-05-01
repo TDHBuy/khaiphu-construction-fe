@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
-
+import Image from "next/image";
 export function Hero() {
   const t = useTranslations("hero");
 
@@ -18,12 +18,13 @@ export function Hero() {
         transition={{ duration: 10, ease: "easeOut" }}
         className="absolute inset-0"
       >
-        <div
-          className="h-full w-full bg-cover bg-center"
-          style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&q=80')",
-          }}
+        <Image
+          src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&q=80"
+          alt="Khải Phú Construction"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
         />
       </motion.div>
 

@@ -1,4 +1,3 @@
-import {FaFacebook} from "react-icons/fa";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
@@ -38,7 +37,9 @@ export function Footer() {
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-accent-500 hover:text-neutral-900"
                 aria-label="Facebook"
               >
-                <FaFacebook size={16} />
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                </svg>
               </a>
             </div>
           </div>
@@ -68,7 +69,7 @@ export function Footer() {
               {t("footer.company_title")}
             </h3>
             <ul className="space-y-3">
-              {NAV_ITEMS.filter((i) => i.key !== "home").map((item) => (
+              {NAV_ITEMS.map((item) => (
                 <li key={item.key}>
                   <Link
                     href={item.href}

@@ -3,7 +3,7 @@
 import { ArrowUpRight, MapPin } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-
+import Image from "next/image";
 interface ProjectCardProps {
   slug: string;
   title: string;
@@ -29,9 +29,12 @@ export function ProjectCard({
       className="group relative flex h-[480px] w-[340px] shrink-0 flex-col overflow-hidden rounded-lg md:h-[560px] md:w-[420px]"
     >
       {/* Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
-        style={{ backgroundImage: `url('${image}')` }}
+      <Image
+        src={image}
+        alt={title}
+        fill
+        sizes="(max-width: 768px) 340px, 420px"
+        className="object-cover transition-transform duration-700 group-hover:scale-110"
       />
 
       {/* Overlay */}

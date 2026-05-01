@@ -1,24 +1,33 @@
-import { AboutTeaser } from "@/components/sections/AboutTeaser";
-import { CTA } from "@/components/sections/CTA";
-import { FeaturedProjects } from "@/components/sections/FeaturedProjects";
+import dynamic from "next/dynamic";
 import { Hero } from "@/components/sections/Hero";
-import { Process } from "@/components/sections/Process";
 import { Services } from "@/components/sections/Services";
-import { Stats } from "@/components/sections/Stats";
-import { useTranslations } from "next-intl";
+
+const FeaturedProjects = dynamic(() =>
+  import("@/components/sections/FeaturedProjects").then((m) => ({ default: m.FeaturedProjects }))
+);
+const Stats = dynamic(() =>
+  import("@/components/sections/Stats").then((m) => ({ default: m.Stats }))
+);
+const Process = dynamic(() =>
+  import("@/components/sections/Process").then((m) => ({ default: m.Process }))
+);
+const AboutTeaser = dynamic(() =>
+  import("@/components/sections/AboutTeaser").then((m) => ({ default: m.AboutTeaser }))
+);
+const CTA = dynamic(() =>
+  import("@/components/sections/CTA").then((m) => ({ default: m.CTA }))
+);
 
 export default function HomePage() {
-  const t = useTranslations();
-
   return (
     <>
-      <Hero/>
-      <Services/>
-      <FeaturedProjects/>
+      <Hero />
+      <Services />
+      <FeaturedProjects />
       <Stats />
-      <Process/>
-      <AboutTeaser/>
-      <CTA/>
+      <Process />
+      <AboutTeaser />
+      <CTA />
     </>
   );
 }

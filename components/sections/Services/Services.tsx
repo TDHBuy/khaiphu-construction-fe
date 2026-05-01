@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { RevealOnScroll } from "@/components/shared/RevealOnScroll";
 import { ServiceCard } from "./ServiceCard";
+import { StaggerContainer } from "@/components/shared/StaggerContainer";
 
 const SERVICES_DATA = [
   {
@@ -50,7 +51,7 @@ export function Services() {
         <div className="divider-blueprint mb-16" />
 
         {/* Cards grid */}
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <StaggerContainer className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {SERVICES_DATA.map((service, index) => (
             <ServiceCard
               key={service.key}
@@ -63,7 +64,7 @@ export function Services() {
               cta={t(`${service.key}.cta`)}
             />
           ))}
-        </div>
+        </StaggerContainer>
       </div>
     </section>
   );

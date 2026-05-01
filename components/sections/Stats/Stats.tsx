@@ -1,15 +1,17 @@
+"use client"
 import { useTranslations } from "next-intl";
 import { RevealOnScroll } from "@/components/shared/RevealOnScroll";
 import { MOCK_STATS } from "@/lib/mock-data";
 import { AnimatedCounter } from "./AnimatedCounter";
-
+import { StaggerContainer, staggerItemVariants } from "@/components/shared/StaggerContainer";
+import { motion } from "framer-motion";
 export function Stats() {
   const t = useTranslations("stats");
 
   return (
     <section className="relative overflow-hidden bg-primary-900 py-24 lg:py-32">
       {/* Background pattern */}
-      <div
+      {/* <div
         className="absolute inset-0 opacity-5"
         style={{
           backgroundImage:
@@ -17,7 +19,7 @@ export function Stats() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-      />
+      /> */}
 
       <div className="container-custom relative">
         <RevealOnScroll>
@@ -31,9 +33,9 @@ export function Stats() {
           </div>
         </RevealOnScroll>
 
-        <div className="grid grid-cols-2 gap-8 lg:grid-cols-4 lg:gap-12">
+        <StaggerContainer className="grid grid-cols-2 gap-8 lg:grid-cols-4 lg:gap-12">
           {MOCK_STATS.map((stat, index) => (
-            <RevealOnScroll key={stat.key} delay={index * 0.15}>
+            <motion.div key={stat.key} variants={staggerItemVariants} className="text-center lg:text-left">
               <div className="text-center lg:text-left">
                 <div className="font-display text-5xl font-extrabold text-accent-400 lg:text-7xl">
                   <AnimatedCounter value={stat.value} suffix={stat.suffix} />
@@ -43,9 +45,9 @@ export function Stats() {
                   {t(stat.key)}
                 </p>
               </div>
-            </RevealOnScroll>
+            </motion.div>
           ))}
-        </div>
+        </StaggerContainer>
       </div>
     </section>
   );

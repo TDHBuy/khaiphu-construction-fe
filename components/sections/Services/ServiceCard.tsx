@@ -4,7 +4,8 @@ import { ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
-
+import { staggerItemVariants } from "@/components/shared/StaggerContainer";
+import Image from "next/image";
 interface ServiceCardProps {
   number: string;
   title: string;
@@ -25,11 +26,7 @@ export function ServiceCard({
   index,
 }: ServiceCardProps) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-50px" }}
-      transition={{ duration: 0.6, delay: index * 0.15 }}
+    <motion.div variants={staggerItemVariants}
     >
       <Link
         href={href}
@@ -37,9 +34,12 @@ export function ServiceCard({
       >
         {/* Image */}
         <div className="relative aspect-[4/3] overflow-hidden bg-neutral-200">
-          <div
-            className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
-            style={{ backgroundImage: `url('${image}')` }}
+        <Image
+            src={image}
+            alt={title}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="object-cover transition-transform duration-700 group-hover:scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-primary-900/60 via-transparent to-transparent" />
 
