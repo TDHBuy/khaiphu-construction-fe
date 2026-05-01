@@ -1,0 +1,113 @@
+{
+    "nav": {
+      "home": "Trang chủ",
+      "about": "Về chúng tôi",
+      "services": "Dịch vụ",
+      "projects": "Dự án",
+      "equipment": "Thiết bị",
+      "contact": "Liên hệ"
+    },
+    "hero": {
+      "title": "Nền Móng Vững Chắc\nCho Mọi Công Trình",
+      "subtitle": "Khải Phú Construction — Chuyên gia thi công nền móng với hơn 10 năm kinh nghiệm tại Việt Nam.",
+      "cta_primary": "Khám phá dịch vụ",
+      "cta_secondary": "Xem dự án"
+    },
+    "services": {
+      "section_label": "Dịch vụ cốt lõi",
+      "section_title": "Giải pháp nền móng toàn diện",
+      "section_description": "Ba dịch vụ chủ lực giúp công trình của bạn có nền tảng vững chắc nhất.",
+      "shoring": {
+        "title": "Thi công Shoring",
+        "short": "Hệ thống chống đỡ hố đào an toàn cho công trình ngầm và tầng hầm.",
+        "cta": "Tìm hiểu thêm"
+      },
+      "larsen": {
+        "title": "Ép cừ Larsen",
+        "short": "Ép và nhổ cừ Larsen chuyên nghiệp, phù hợp mọi loại địa chất.",
+        "cta": "Tìm hiểu thêm"
+      },
+      "kingpost": {
+        "title": "Gia công Kingpost",
+        "short": "Gia công và lắp dựng Kingpost chất lượng cao cho công trình quy mô lớn.",
+        "cta": "Tìm hiểu thêm"
+      }
+    },
+    "projects": {
+      "section_label": "Dự án tiêu biểu",
+      "section_title": "Công trình đã thực hiện",
+      "view_all": "Xem tất cả dự án",
+      "view_detail": "Xem chi tiết",
+      "filter_all": "Tất cả",
+      "back_to_projects": "Quay lại danh sách"
+    },
+    "stats": {
+      "section_label": "Năng lực",
+      "section_title": "Khải Phú qua những con số",
+      "projects": "Dự án hoàn thành",
+      "years": "Năm kinh nghiệm",
+      "equipment": "Thiết bị chuyên dụng",
+      "satisfaction": "Khách hàng hài lòng"
+    },
+    "process": {
+      "section_label": "Quy trình",
+      "section_title": "Quy trình thi công chuyên nghiệp",
+      "step_1_title": "Khảo sát",
+      "step_1_desc": "Đánh giá địa chất và điều kiện công trường.",
+      "step_2_title": "Thiết kế",
+      "step_2_desc": "Lập phương án thi công tối ưu.",
+      "step_3_title": "Thi công",
+      "step_3_desc": "Triển khai với thiết bị hiện đại.",
+      "step_4_title": "Nghiệm thu",
+      "step_4_desc": "Bàn giao đạt chuẩn chất lượng cao nhất."
+    },
+    "about": {
+      "section_label": "Về chúng tôi",
+      "section_title": "Xây dựng niềm tin từ nền móng",
+      "description": "Khải Phú Construction được thành lập với sứ mệnh mang đến những giải pháp nền móng chất lượng cao, an toàn và tiết kiệm cho mọi công trình.",
+      "learn_more": "Tìm hiểu thêm"
+    },
+    "cta": {
+      "title": "Sẵn sàng hợp tác cùng bạn",
+      "description": "Liên hệ ngay để được tư vấn giải pháp nền móng phù hợp nhất cho công trình của bạn.",
+      "button": "Liên hệ ngay"
+    },
+    "contact": {
+      "title": "Liên hệ với chúng tôi",
+      "subtitle": "Đội ngũ chuyên gia Khải Phú luôn sẵn sàng tư vấn miễn phí cho dự án của bạn.",
+      "form": {
+        "name": "Họ và tên",
+        "name_placeholder": "Nguyễn Văn A",
+        "email": "Email",
+        "email_placeholder": "example@email.com",
+        "phone": "Số điện thoại",
+        "phone_placeholder": "0901 234 567",
+        "company": "Công ty",
+        "company_placeholder": "Tên công ty (không bắt buộc)",
+        "service": "Dịch vụ quan tâm",
+        "service_placeholder": "Chọn dịch vụ",
+        "message": "Nội dung",
+        "message_placeholder": "Mô tả về dự án của bạn...",
+        "submit": "Gửi thông tin",
+        "submitting": "Đang gửi...",
+        "success": "Cảm ơn bạn! Chúng tôi sẽ liên hệ trong 24 giờ.",
+        "error": "Có lỗi xảy ra. Vui lòng thử lại."
+      },
+      "info": {
+        "address_title": "Địa chỉ",
+        "address": "TP. Hồ Chí Minh, Việt Nam",
+        "phone_title": "Hotline",
+        "email_title": "Email",
+        "hours_title": "Giờ làm việc",
+        "hours": "Thứ 2 - Thứ 7: 8:00 - 17:30"
+      }
+    },
+    "footer": {
+      "tagline": "Nền móng vững chắc cho mọi công trình",
+      "services_title": "Dịch vụ",
+      "company_title": "Công ty",
+      "contact_title": "Liên hệ",
+      "rights": "© {year} Khải Phú Construction. Tất cả các quyền được bảo lưu."
+    }
+  }
+  

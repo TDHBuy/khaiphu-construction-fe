@@ -1,0 +1,113 @@
+{
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "projects": "Projects",
+      "equipment": "Equipment",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Solid Foundations\nFor Every Structure",
+      "subtitle": "Khai Phu Construction — Foundation engineering specialists with over 10 years of experience in Vietnam.",
+      "cta_primary": "Explore Services",
+      "cta_secondary": "View Projects"
+    },
+    "services": {
+      "section_label": "Core Services",
+      "section_title": "Comprehensive Foundation Solutions",
+      "section_description": "Three flagship services to give your project the strongest possible foundation.",
+      "shoring": {
+        "title": "Shoring Construction",
+        "short": "Safe excavation support systems for basements and underground works.",
+        "cta": "Learn more"
+      },
+      "larsen": {
+        "title": "Larsen Sheet Piling",
+        "short": "Professional Larsen pile driving and extraction for all soil conditions.",
+        "cta": "Learn more"
+      },
+      "kingpost": {
+        "title": "Kingpost Machining",
+        "short": "High-quality Kingpost fabrication and installation for large-scale projects.",
+        "cta": "Learn more"
+      }
+    },
+    "projects": {
+      "section_label": "Featured Projects",
+      "section_title": "Our Completed Works",
+      "view_all": "View all projects",
+      "view_detail": "View details",
+      "filter_all": "All",
+      "back_to_projects": "Back to projects"
+    },
+    "stats": {
+      "section_label": "Capabilities",
+      "section_title": "Khai Phu by the Numbers",
+      "projects": "Completed Projects",
+      "years": "Years of Experience",
+      "equipment": "Specialized Equipment",
+      "satisfaction": "Client Satisfaction"
+    },
+    "process": {
+      "section_label": "Process",
+      "section_title": "Professional Construction Process",
+      "step_1_title": "Survey",
+      "step_1_desc": "Geological and site condition assessment.",
+      "step_2_title": "Design",
+      "step_2_desc": "Optimal construction planning.",
+      "step_3_title": "Construction",
+      "step_3_desc": "Execution with modern equipment.",
+      "step_4_title": "Handover",
+      "step_4_desc": "Delivery at the highest quality standards."
+    },
+    "about": {
+      "section_label": "About Us",
+      "section_title": "Building Trust From The Ground Up",
+      "description": "Khai Phu Construction was founded with the mission to deliver high-quality, safe, and cost-effective foundation solutions for every project.",
+      "learn_more": "Learn more"
+    },
+    "cta": {
+      "title": "Ready to Work With You",
+      "description": "Contact us today for free consultation on the best foundation solution for your project.",
+      "button": "Get in touch"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Khai Phu's expert team is always ready to provide free consultation for your project.",
+      "form": {
+        "name": "Full name",
+        "name_placeholder": "John Doe",
+        "email": "Email",
+        "email_placeholder": "example@email.com",
+        "phone": "Phone",
+        "phone_placeholder": "+84 901 234 567",
+        "company": "Company",
+        "company_placeholder": "Company name (optional)",
+        "service": "Service of interest",
+        "service_placeholder": "Select a service",
+        "message": "Message",
+        "message_placeholder": "Tell us about your project...",
+        "submit": "Send message",
+        "submitting": "Sending...",
+        "success": "Thank you! We will contact you within 24 hours.",
+        "error": "Something went wrong. Please try again."
+      },
+      "info": {
+        "address_title": "Address",
+        "address": "Ho Chi Minh City, Vietnam",
+        "phone_title": "Hotline",
+        "email_title": "Email",
+        "hours_title": "Business Hours",
+        "hours": "Mon - Sat: 8:00 AM - 5:30 PM"
+      }
+    },
+    "footer": {
+      "tagline": "Solid foundations for every structure",
+      "services_title": "Services",
+      "company_title": "Company",
+      "contact_title": "Contact",
+      "rights": "© {year} Khai Phu Construction. All rights reserved."
+    }
+  }
+  
