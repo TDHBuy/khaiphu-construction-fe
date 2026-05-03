@@ -16,11 +16,10 @@ export const SITE_CONFIG = {
   href: string;
 };
 
-export type NavItem = {
-  key: string;
-  href?: string;
-  children?: NavDropdownItem[];
-};
+// Discriminated union: every item has either href (leaf) or children (parent), never both, never neither.
+export type NavItem =
+  | { key: string; href: string; children?: never }
+  | { key: string; href?: never; children: NavDropdownItem[] };
 
 export const NAV_ITEMS: NavItem[] = [
   {

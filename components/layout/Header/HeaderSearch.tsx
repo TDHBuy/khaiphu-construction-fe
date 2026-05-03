@@ -37,20 +37,19 @@ export function HeaderSearch({ isOpen, onClose, isTransparent }: HeaderSearchPro
     return () => document.removeEventListener("keydown", handler);
   }, [isOpen, onClose]);
 
-  // Focus trap for mobile overlay
+  // Focus trap for mobile overlay — query live on each keypress to avoid stale DOM snapshots
   useEffect(() => {
     if (!isOpen || window.innerWidth >= 1024) return;
     const overlay = mobileOverlayRef.current;
     if (!overlay) return;
 
-    const focusable = overlay.querySelectorAll<HTMLElement>(
-      'button, input, a[href], [tabindex]:not([tabindex="-1"])'
-    );
-    const first = focusable[0];
-    const last = focusable[focusable.length - 1];
+    const selector = 'button, input, a[href], [tabindex]:not([tabindex="-1"])';
 
     const trapTab = (e: KeyboardEvent) => {
       if (e.key !== "Tab") return;
+      const focusable = overlay.querySelectorAll<HTMLElement>(selector);
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
       if (e.shiftKey) {
         if (document.activeElement === first) { e.preventDefault(); last?.focus(); }
       } else {
