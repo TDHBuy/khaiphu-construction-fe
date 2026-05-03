@@ -2,31 +2,7 @@ import { useTranslations } from "next-intl";
 import { RevealOnScroll } from "@/components/shared/RevealOnScroll";
 import { ServiceCard } from "./ServiceCard";
 import { StaggerContainer } from "@/components/shared/StaggerContainer";
-
-const SERVICES_DATA = [
-  {
-    key: "shoring",
-    number: "01",
-    image:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
-    href: "/dich-vu/shoring",
-  },
-  {
-    key: "larsen",
-    number: "02",
-    image:
-      "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800&q=80",
-    href: "/dich-vu/cu-larsen",
-  },
-  {
-    key: "kingpost",
-    number: "03",
-    image:
-      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
-    href: "/dich-vu/kingpost",
-  },
-] as const;
-
+import { SERVICES_DATA } from "@/lib/constants";
 export function Services() {
   const t = useTranslations("services");
 

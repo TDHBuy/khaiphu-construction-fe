@@ -2,7 +2,16 @@
     "nav": {
       "home": "Home",
       "about": "About Us",
+      "companyProfile": "Company Profile",
+      "visionMission": "Vision & Mission",
+      "partners": "Partners",
+      "qualityStandards": "Quality Standards",
+      "implementationCapacity": "Implementation Capacity",
       "services": "Services",
+      "shoringConstruction": "Shoring Construction",
+      "larsenPile": "Larsen Sheet Piling",
+      "kingpostFabrication": "Kingpost Fabrication",
+      "expansion": "Expansion",
       "projects": "Projects",
       "equipment": "Equipment",
       "contact": "Contact"

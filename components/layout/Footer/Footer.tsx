@@ -69,10 +69,10 @@ export function Footer() {
               {t("footer.company_title")}
             </h3>
             <ul className="space-y-3">
-              {NAV_ITEMS.map((item) => (
+              {NAV_ITEMS.filter((item) => item.href).map((item) => (
                 <li key={item.key}>
                   <Link
-                    href={item.href}
+                    href={item.href!}
                     className="text-sm text-neutral-400 transition-colors hover:text-accent-400"
                   >
                     {t(`nav.${item.key}`)}

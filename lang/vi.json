@@ -2,7 +2,16 @@
     "nav": {
       "home": "Trang chủ",
       "about": "Về chúng tôi",
+      "companyProfile": "Hồ sơ tập đoàn",
+      "visionMission": "Tầm nhìn và sứ mệnh",
+      "partners": "Đối tác",
+      "qualityStandards": "Tiêu chuẩn chất lượng",
+      "implementationCapacity": "Khả năng triển khai",
       "services": "Dịch vụ",
+      "shoringConstruction": "Thi công shoring",
+      "larsenPile": "Ép cừ larsen",
+      "kingpostFabrication": "Gia công kingpost",
+      "expansion": "Mở rộng",
       "projects": "Dự án",
       "equipment": "Thiết bị",
       "contact": "Liên hệ"
