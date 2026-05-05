@@ -32,27 +32,8 @@ export function AboutTeaser() {
             className="lg:col-span-5 lg:flex lg:items-center"
           >
             <div>
-              <p className="section-number mb-4">06 — {t("section_label")}</p>
-              <h2 className="text-h2 text-balance font-display font-bold text-primary-900">
-                {t("section_title")}
-              </h2>
-              <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
-                {t("description")}
-              </p>
-
-              <Button
-                asChild
-                size="lg"
-                className="mt-8 bg-primary-700 text-white hover:bg-primary-800 group"
-              >
-                <Link href="/ve-chung-toi">
-                  {t("learn_more")}
-                  <ArrowRight
-                    size={16}
-                    className="ml-2 transition-transform group-hover:translate-x-1"
-                  />
-                </Link>
-              </Button>
+              <p className="section-number mb-4">06</p>
+          
             </div>
           </RevealOnScroll>
         </div>

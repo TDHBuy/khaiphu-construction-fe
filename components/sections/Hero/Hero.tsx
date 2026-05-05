@@ -75,7 +75,7 @@ export function Hero() {
             size="lg"
             className="bg-accent-500 text-neutral-900 hover:bg-accent-400 h-14 px-8 text-base group"
           >
-            <Link href="/dich-vu">
+            <Link href="/services">
               {t("cta_primary")}
               <ArrowRight
                 size={18}

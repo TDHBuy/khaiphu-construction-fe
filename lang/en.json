@@ -11,7 +11,7 @@
       "shoringConstruction": "Shoring Construction",
       "larsenPile": "Larsen Sheet Piling",
       "kingpostFabrication": "Kingpost Fabrication",
-      "expansion": "Expansion",
+      "extendedService": "Extended Service",
       "projects": "Projects",
       "equipment": "Equipment",
       "contact": "Contact"
@@ -37,7 +37,7 @@
         "cta": "Learn more"
       },
       "kingpost": {
-        "title": "Kingpost Machining",
+        "title": "Kingpost Fabrication",
         "short": "High-quality Kingpost fabrication and installation for large-scale projects.",
         "cta": "Learn more"
       }
@@ -71,11 +71,34 @@
       "step_4_desc": "Delivery at the highest quality standards."
     },
     "about": {
-      "section_label": "About Us",
-      "section_title": "Building Trust From The Ground Up",
-      "description": "Khai Phu Construction was founded with the mission to deliver high-quality, safe, and cost-effective foundation solutions for every project.",
-      "learn_more": "Learn more"
+      "companyProfile": {
+        "breadcrumb": "Company Profile",
+        "hero": {
+          "title": "KHAI PHU",
+          "subtitle": "Specialists in Shoring – Larsen Piles – Kingpost"
+        },
+        "welcome": {
+          "eyebrow": "Welcome Letter",
+          "title": "Partnering for the stability of every underground project",
+          "p1": "In increasingly complex urban environments, excavation support systems are more than engineering structures — they are the foundation that ensures safety for projects and surrounding communities.",
+          "p2": "Khai Phu specializes deeply in three core areas: Shoring construction, Larsen pile driving, and Kingpost fabrication — backed by experienced engineers and modern equipment.",
+          "p3": "We commit to partnering with investors from initial survey to final handover — strictly controlling timelines, costs, and all potential risks.",
+          "signature": "Khong Le Thao Nhu",
+          "signatureRole": "Director"
+        },
+        "info": {
+          "eyebrow": "Legal Information",
+          "title": "Corporate Profile",
+          "companyName": "Company Name",
+          "companyNameValue": "KHAI PHU CONSTRUCTION TRADING CO., LTD",
+          "founded": "Founded",
+          "foundedValue": "2022",
+          "address": "Address",
+          "addressValue": "23B Street 3, KP4, An Khanh Ward, Thu Duc City, HCMC"
+        }
+      }
     },
+    
     "cta": {
       "title": "Ready to Work With You",
       "description": "Contact us today for free consultation on the best foundation solution for your project.",

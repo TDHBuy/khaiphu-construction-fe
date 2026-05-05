@@ -38,7 +38,7 @@ export const NAV_ITEMS: NavItem[] = [
       { key: "shoringConstruction", href: "/services/shoring-construction" },
       { key: "larsenPile", href: "/services/larsen-pile" },
       { key: "kingpostFabrication", href: "/services/kingpost-fabrication" },
-      { key: "expansion", href: "/services/expansion" },
+      { key: "extendedService", href: "/services/extended-service" },
     ],
   },
   { key: "projects", href: "/projects" },
@@ -47,31 +47,57 @@ export const NAV_ITEMS: NavItem[] = [
 ];
   
   export const SERVICES = [
-    { key: "shoring", slug: "shoring" },
-    { key: "larsen", slug: "cu-larsen" },
-    { key: "kingpost", slug: "kingpost" },
+    { key: "shoring", slug: "shoring-construction" },
+    { key: "larsen", slug: "larsen-pile" },
+    { key: "kingpost", slug: "kingpost-fabrication" },
   ] as const;
 
   export const SERVICES_DATA = [
     {
       key: "shoring" as const,
       number: "01",
-      image:
-        "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
-      href: "/dich-vu/shoring",
+      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+      href: "/services/shoring-construction", // ✅ sync với NAV_ITEMS
     },
     {
       key: "larsen" as const,
       number: "02",
-      image:
-        "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800&q=80",
-      href: "/dich-vu/cu-larsen",
+      image: "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800&q=80",
+      href: "/services/larsen-pile", // ✅
     },
     {
       key: "kingpost" as const,
       number: "03",
-      image:
-        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
-      href: "/dich-vu/kingpost",
+      image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
+      href: "/services/kingpost-fabrication", // ✅
     },
   ];
+  
+// Append cuối file constants.ts
+export const FEATURED_PROJECTS = [
+  {
+    name: "Khu dân cư Phú Long – Phân khu số 15B",
+    location: "TP.HCM",
+    year: "2024",
+  },
+  {
+    name: "Hạ tầng khung – Thái Sơn Long An",
+    location: "Long An",
+    year: "2024",
+  },
+  {
+    name: "Narra Residences (MU8) – KĐT Empire City",
+    location: "Thủ Thiêm, TP.HCM",
+    year: "2023",
+  },
+  {
+    name: "Khu đô thị Sài Gòn Bình An – Lô CT8-9",
+    location: "TP.HCM",
+    year: "2023",
+  },
+  {
+    name: "Khu đô thị Sài Gòn Bình An – Lô CT7",
+    location: "TP.HCM",
+    year: "2022",
+  },
+] as const;

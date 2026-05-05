@@ -53,7 +53,7 @@ export function Footer() {
               {SERVICES.map((service) => (
                 <li key={service.key}>
                   <Link
-                    href={`/dich-vu/${service.slug}`}
+                    href={`/services/${service.slug}`}
                     className="text-sm text-neutral-400 transition-colors hover:text-accent-400"
                   >
                     {t(`services.${service.key}.title`)}

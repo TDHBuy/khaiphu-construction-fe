@@ -11,7 +11,7 @@
       "shoringConstruction": "Thi công shoring",
       "larsenPile": "Ép cừ larsen",
       "kingpostFabrication": "Gia công kingpost",
-      "expansion": "Mở rộng",
+      "extendedService": "Dịch vụ mở rộng",
       "projects": "Dự án",
       "equipment": "Thiết bị",
       "contact": "Liên hệ"
@@ -71,10 +71,39 @@
       "step_4_desc": "Bàn giao đạt chuẩn chất lượng cao nhất."
     },
     "about": {
-      "section_label": "Về chúng tôi",
-      "section_title": "Xây dựng niềm tin từ nền móng",
-      "description": "Khải Phú Construction được thành lập với sứ mệnh mang đến những giải pháp nền móng chất lượng cao, an toàn và tiết kiệm cho mọi công trình.",
-      "learn_more": "Tìm hiểu thêm"
+      "companyProfile": {
+        "breadcrumb": "Hồ sơ công ty",
+        "hero": {
+          "title": "KHẢI PHÚ",
+          "subtitle": "Chuyên thi công Shoring – Cừ Larsen – Kingpost"
+        },
+        "welcome": {
+          "eyebrow": "Thư ngỏ",
+          "title": "Đồng hành cùng sự ổn định của mỗi công trình ngầm",
+          "p1": "Trong môi trường đô thị ngày càng phức tạp, hệ chống giữ hố đào không chỉ là kết cấu kỹ thuật — đó là nền tảng đảm bảo an toàn cho công trình và cộng đồng xung quanh.",
+          "p2": "Khải Phú tập trung chuyên sâu vào ba lĩnh vực cốt lõi: thi công Shoring, ép cừ Larsen và gia công Kingpost — với đội ngũ kỹ sư giàu kinh nghiệm và thiết bị hiện đại.",
+          "p3": "Chúng tôi cam kết đồng hành cùng chủ đầu tư từ giai đoạn khảo sát đến nghiệm thu — kiểm soát chặt chẽ tiến độ, chi phí và mọi rủi ro tiềm ẩn.",
+          "signature": "Khổng Lê Thảo Như",
+          "signatureRole": "Giám đốc"
+        },
+        "stats": {
+          "founded": "Năm thành lập",
+          "capital": "Vốn điều lệ",
+          "contractors": "Tổng thầu lớn đã hợp tác",
+          "partners": "Đối tác thi công chiến lược",
+          "capitalValue": "1 tỷ VNĐ"
+        },
+        "info": {
+          "eyebrow": "Thông tin pháp lý",
+          "title": "Hồ sơ doanh nghiệp",
+          "companyName": "Tên công ty",
+          "companyNameValue": "CÔNG TY TNHH XÂY DỰNG THƯƠNG MẠI KHẢI PHÚ",
+          "founded": "Năm thành lập",
+          "foundedValue": "2022",
+          "address": "Địa chỉ",
+          "addressValue": "23B Đường số 3, KP4, P. An Khánh, TP. Thủ Đức, TP.HCM"
+        }
+      }
     },
     "cta": {
       "title": "Sẵn sàng hợp tác cùng bạn",
