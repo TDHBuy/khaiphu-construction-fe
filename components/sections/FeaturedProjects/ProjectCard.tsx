@@ -21,7 +21,8 @@ export function ProjectCard({
   serviceType,
   image,
 }: ProjectCardProps) {
-  const t = useTranslations();
+  const tNav = useTranslations("navigation");
+  const tProjects = useTranslations("home.projects");
 
   return (
     <Link
@@ -43,7 +44,7 @@ export function ProjectCard({
       {/* Top metadata */}
       <div className="relative z-10 flex items-start justify-between p-6">
         <span className="bg-accent-500 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-primary-900">
-          {t(`services.${serviceType}.title`)}
+          {tNav(serviceType)}
         </span>
         <span className="font-display font-bold text-white/80">{year}</span>
       </div>
@@ -59,7 +60,7 @@ export function ProjectCard({
         </h3>
 
         <div className="mt-5 flex items-center gap-2 text-sm font-semibold text-accent-400 opacity-0 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0 translate-x-[-10px]">
-          <span>{t("projects.view_detail")}</span>
+          <span>{tProjects("view_detail")}</span>
           <ArrowUpRight size={16} />
         </div>
       </div>

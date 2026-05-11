@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Solid Foundations\nFor Every Structure",
+    "subtitle": "Khai Phu Construction — Foundation engineering specialists with over 10 years of experience in Vietnam.",
+    "cta_primary": "Explore Services",
+    "cta_secondary": "View Projects"
+  },
+  "services": {
+    "section_label": "Core Services",
+    "section_title": "Comprehensive Foundation Solutions",
+    "section_description": "Three flagship services to give your project the strongest possible foundation.",
+    "shoringConstruction": {
+      "title": "Shoring Construction",
+      "short": "Safe excavation support systems for basements and underground works.",
+      "cta": "Learn more"
+    },
+    "larsenPile": {
+      "title": "Larsen Sheet Piling",
+      "short": "Professional Larsen pile driving and extraction for all soil conditions.",
+      "cta": "Learn more"
+    },
+    "kingpostFabrication": {
+      "title": "Kingpost Fabrication",
+      "short": "High-quality Kingpost fabrication and installation for large-scale projects.",
+      "cta": "Learn more"
+    }
+  },
+  "projects": {
+    "section_label": "Featured Projects",
+    "section_title": "Our Completed Works",
+    "view_all": "View all projects",
+    "view_detail": "View details",
+    "filter_all": "All",
+    "back_to_projects": "Back to projects"
+  },
+  "stats": {
+    "section_label": "Capabilities",
+    "section_title": "Khai Phu by the Numbers",
+    "projects": "Completed Projects",
+    "years": "Years of Experience",
+    "equipment": "Specialized Equipment",
+    "satisfaction": "Client Satisfaction"
+  },
+  "process": {
+    "section_label": "Process",
+    "section_title": "Professional Construction Process",
+    "step_1_title": "Survey",
+    "step_1_desc": "Geological and site condition assessment.",
+    "step_2_title": "Design",
+    "step_2_desc": "Optimal construction planning.",
+    "step_3_title": "Construction",
+    "step_3_desc": "Execution with modern equipment.",
+    "step_4_title": "Handover",
+    "step_4_desc": "Delivery at the highest quality standards."
+  },
+  "cta": {
+    "title": "Ready to Work With You",
+    "description": "Contact us today for free consultation on the best foundation solution for your project.",
+    "button": "Get in touch"
+  }
+}

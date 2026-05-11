@@ -5,7 +5,7 @@ export interface MockProject {
     titleEn: string;
     location: string;
     year: number;
-    serviceType: "shoring" | "larsen" | "kingpost";
+    serviceType: "shoringConstruction" | "larsenPile" | "kingpostFabrication";
     coverImage: string;
     client?: string;
   }
@@ -18,7 +18,7 @@ export interface MockProject {
       titleEn: "Shoring for Office Building District 1",
       location: "Quận 1, TP.HCM",
       year: 2024,
-      serviceType: "shoring",
+      serviceType: "shoringConstruction",
       coverImage:
         "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=80",
       client: "Vingroup",
@@ -30,7 +30,7 @@ export interface MockProject {
       titleEn: "Larsen Pile Driving for Metro Project",
       location: "Quận 2, TP.HCM",
       year: 2024,
-      serviceType: "larsen",
+      serviceType: "larsenPile",
       coverImage:
         "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80",
       client: "MAUR",
@@ -42,7 +42,7 @@ export interface MockProject {
       titleEn: "Kingpost for Landmark Shopping Center",
       location: "Quận 7, TP.HCM",
       year: 2023,
-      serviceType: "kingpost",
+      serviceType: "kingpostFabrication",
       coverImage:
         "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=1200&q=80",
       client: "Phú Mỹ Hưng",
@@ -54,7 +54,7 @@ export interface MockProject {
       titleEn: "B3 Basement Shoring - Premium Apartment",
       location: "Bình Thạnh, TP.HCM",
       year: 2023,
-      serviceType: "shoring",
+      serviceType: "shoringConstruction",
       coverImage:
         "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&q=80",
       client: "Novaland",
@@ -66,7 +66,7 @@ export interface MockProject {
       titleEn: "Cai Mep Port Larsen Piles",
       location: "Bà Rịa - Vũng Tàu",
       year: 2022,
-      serviceType: "larsen",
+      serviceType: "larsenPile",
       coverImage:
         "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=1200&q=80",
       client: "Gemalink",
@@ -78,7 +78,7 @@ export interface MockProject {
       titleEn: "Saigon Factory Kingpost",
       location: "Long An",
       year: 2022,
-      serviceType: "kingpost",
+      serviceType: "kingpostFabrication",
       coverImage:
         "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80",
       client: "Samsung",

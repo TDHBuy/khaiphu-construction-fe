@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 export function WelcomeLetter() {
-  const t = useTranslations("about.companyProfile.welcome");
+  const t = useTranslations("companyProfile.welcome");
 
   return (
     <section className="bg-white py-24 lg:py-32">

@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
-import { NAV_ITEMS } from "@/lib/constants";
+import { NAV_ITEMS } from "@/constants/navigation";
 import { cn } from "@/lib/utils";
 import { MobileNavItem } from "./NavItem";
 
@@ -15,7 +15,7 @@ interface MobileDrawerProps {
 }
 
 export function MobileDrawer({ isOpen, openDropdown, onClose, onToggleDropdown }: MobileDrawerProps) {
-  const t = useTranslations("nav");
+  const t = useTranslations("navigation");
 
   return (
     <div className={cn("lg:hidden fixed inset-x-0 top-16 bottom-0 bg-white transition-transform duration-300", isOpen ? "translate-x-0" : "translate-x-full")}>

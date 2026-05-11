@@ -7,8 +7,8 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
 export function HeroBanner() {
-  const t = useTranslations("about.companyProfile");
-  const tNav = useTranslations("nav");
+  const t = useTranslations("companyProfile");
+  const tNav = useTranslations("navigation");
 
   return (
     <section className="relative flex min-h-screen items-end overflow-hidden bg-primary-900">
@@ -44,16 +44,13 @@ export function HeroBanner() {
           className="mb-8 flex items-center gap-2 text-sm text-white/80"
           aria-label="Breadcrumb"
         >
-          <Link
-            href="/"
-            className="transition-colors hover:text-accent-400"
-          >
+          <Link href="/" className="transition-colors hover:text-accent-400">
             {tNav("home")}
           </Link>
           <ChevronRight size={14} className="text-white/40" />
           <span className="text-white/80">{tNav("about")}</span>
           <ChevronRight size={14} className="text-white/40" />
-          <span className="text-white">{t("breadcrumb")}</span>
+          {/* <span className="text-white">{t("breadcrumb")}</span> */}
         </motion.nav>
 
         {/* Main title */}
@@ -63,7 +60,7 @@ export function HeroBanner() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="font-display text-6xl font-extrabold leading-[0.95] tracking-tight text-white sm:text-7xl lg:text-8xl xl:text-[120px]"
         >
-          {t("hero.title")}
+          {/* {t("hero.title")} */}
         </motion.h1>
 
         {/* Subtitle */}
@@ -73,7 +70,7 @@ export function HeroBanner() {
           transition={{ duration: 0.7, delay: 0.5 }}
           className="mt-6 max-w-2xl text-lg font-light text-white/90 sm:text-xl lg:text-2xl"
         >
-          {t("hero.subtitle")}
+          {/* {t("hero.subtitle")} */}
         </motion.p>
       </div>
 
@@ -85,9 +82,7 @@ export function HeroBanner() {
         className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 lg:block"
       >
         <div className="flex flex-col items-center gap-2 text-white/60">
-          <span className="text-[10px] uppercase tracking-[0.3em]">
-            Scroll
-          </span>
+          <span className="text-[10px] uppercase tracking-[0.3em]">Scroll</span>
           <motion.div
             animate={{ y: [0, 8, 0] }}
             transition={{ duration: 2, repeat: Infinity }}

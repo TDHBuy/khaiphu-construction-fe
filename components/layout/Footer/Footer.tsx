@@ -1,10 +1,13 @@
 import { Mail, MapPin, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { NAV_ITEMS, SERVICES, SITE_CONFIG } from "@/lib/constants";
+import { NAV_ITEMS } from "@/constants/navigation";
+import { SITE_CONFIG } from "@/constants/site";
+import { SERVICES } from "@/constants/service";
 
 export function Footer() {
-  const t = useTranslations();
+  const tFooter = useTranslations("footer");
+  const tNav = useTranslations("navigation");
   const year = new Date().getFullYear();
 
   return (
@@ -27,7 +30,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-sm leading-relaxed text-neutral-400">
-              {t("footer.tagline")}
+              {tFooter("tagline")}
             </p>
             <div className="mt-6 flex gap-3">
               <a
@@ -47,16 +50,16 @@ export function Footer() {
           {/* Services */}
           <div>
             <h3 className="mb-5 font-display text-sm font-bold uppercase tracking-wider text-white">
-              {t("footer.services_title")}
+              {tFooter("services_title")}
             </h3>
             <ul className="space-y-3">
               {SERVICES.map((service) => (
                 <li key={service.key}>
                   <Link
-                    href={`/services/${service.slug}`}
+                    href={service.href}
                     className="text-sm text-neutral-400 transition-colors hover:text-accent-400"
                   >
-                    {t(`services.${service.key}.title`)}
+                    {tNav(service.key)}
                   </Link>
                 </li>
               ))}
@@ -66,7 +69,7 @@ export function Footer() {
           {/* Company */}
           <div>
             <h3 className="mb-5 font-display text-sm font-bold uppercase tracking-wider text-white">
-              {t("footer.company_title")}
+              {tFooter("company_title")}
             </h3>
             <ul className="space-y-3">
               {NAV_ITEMS.filter((item) => item.href).map((item) => (
@@ -75,7 +78,7 @@ export function Footer() {
                     href={item.href!}
                     className="text-sm text-neutral-400 transition-colors hover:text-accent-400"
                   >
-                    {t(`nav.${item.key}`)}
+                    {tNav(item.key)}
                   </Link>
                 </li>
               ))}
@@ -85,7 +88,7 @@ export function Footer() {
           {/* Contact */}
           <div>
             <h3 className="mb-5 font-display text-sm font-bold uppercase tracking-wider text-white">
-              {t("footer.contact_title")}
+              {tFooter("contact_title")}
             </h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm text-neutral-400">
@@ -119,7 +122,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col items-center justify-between gap-4 text-xs text-neutral-500 md:flex-row">
-          <p>{t("footer.rights", { year })}</p>
+          <p>{tFooter("rights", { year })}</p>
           <p className="uppercase tracking-wider">
             Nền móng vững chắc · Solid Foundations
           </p>

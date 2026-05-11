@@ -2,9 +2,9 @@ import { useTranslations } from "next-intl";
 import { RevealOnScroll } from "@/components/shared/RevealOnScroll";
 import { ServiceCard } from "./ServiceCard";
 import { StaggerContainer } from "@/components/shared/StaggerContainer";
-import { SERVICES_DATA } from "@/lib/constants";
+import { SERVICES} from "@/constants/service";
 export function Services() {
-  const t = useTranslations("services");
+  const t = useTranslations("home.services");
 
   return (
     <section className="bg-neutral-50 py-24 lg:py-32">
@@ -28,7 +28,7 @@ export function Services() {
 
         {/* Cards grid */}
         <StaggerContainer className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {SERVICES_DATA.map((service, index) => (
+          {SERVICES.map((service, index) => (
             <ServiceCard
               key={service.key}
               index={index}

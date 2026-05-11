@@ -6,7 +6,7 @@ import { AnimatedCounter } from "./AnimatedCounter";
 import { StaggerContainer, staggerItemVariants } from "@/components/shared/StaggerContainer";
 import { motion } from "framer-motion";
 export function Stats() {
-  const t = useTranslations("stats");
+  const t = useTranslations("home.stats");
 
   return (
     <section className="relative overflow-hidden bg-primary-900 py-24 lg:py-32">

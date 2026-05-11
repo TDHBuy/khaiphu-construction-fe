@@ -7,7 +7,7 @@ import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 export function Hero() {
-  const t = useTranslations("hero");
+  const t = useTranslations("home.hero");
 
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden">

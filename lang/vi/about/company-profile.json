@@ -1,0 +1,45 @@
+{
+  "breadcrumb": "Hồ sơ công ty",
+  "hero": {
+    "title": "KHẢI PHÚ",
+    "subtitle": "Chuyên thi công Shoring – Cừ Larsen – Kingpost"
+  },
+  "welcome": {
+    "eyebrow": "Thư ngỏ",
+    "title": "Đồng hành cùng sự ổn định của mỗi công trình ngầm",
+    "p1": "Trong môi trường đô thị ngày càng phức tạp, hệ chống giữ hố đào không chỉ là kết cấu kỹ thuật — đó là nền tảng đảm bảo an toàn cho công trình và cộng đồng xung quanh.",
+    "p2": "Khải Phú tập trung chuyên sâu vào ba lĩnh vực cốt lõi: thi công Shoring, ép cừ Larsen và gia công Kingpost — với đội ngũ kỹ sư giàu kinh nghiệm và thiết bị hiện đại.",
+    "p3": "Chúng tôi cam kết đồng hành cùng chủ đầu tư từ giai đoạn khảo sát đến nghiệm thu — kiểm soát chặt chẽ tiến độ, chi phí và mọi rủi ro tiềm ẩn.",
+    "signature": "Khổng Lê Thảo Như",
+    "signatureRole": "Giám đốc"
+  },
+  "info": {
+    "eyebrow": "Thông tin pháp lý",
+    "title": "Hồ sơ doanh nghiệp",
+
+    "companyLabel": "Tên công ty",
+    "companyValue": "CÔNG TY TNHH XÂY DỰNG THƯƠNG MẠI KHẢI PHÚ",
+    "taxLabel": "Mã số thuế",
+    "taxValue": "0317626935",
+
+    "addressLabel": "Địa chỉ",
+    "addressValue": "23B Đường số 3, KP4, P. An Khánh, TP. Thủ Đức, TP.HCM",
+
+    "scopeLabel": "Lĩnh vực hoạt động",
+    "scopeItem1": "Thi công cừ Larsen",
+    "scopeItem2": "Hệ chống giữ hố đào (Shoring – Kingpost)",
+    "scopeItem3": "Cho thuê thiết bị",
+    "scopeItem4": "Vận chuyển",
+
+    "capitalLabel": "Vốn điều lệ",
+    "capitalValue": "1 tỷ VNĐ",
+    "foundedLabel": "Năm thành lập",
+    "foundedValue": "2022",
+
+    "representativeLabel": "Đại diện pháp luật",
+    "representativeValue": "Khổng Lê Thảo Như – Giám đốc",
+
+    "projectsTitle": "Dự án tiêu biểu",
+    "projectsSubtitle": "Một số công trình đã thực hiện"
+  }
+}

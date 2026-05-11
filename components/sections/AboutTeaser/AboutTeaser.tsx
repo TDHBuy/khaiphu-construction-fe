@@ -1,11 +1,9 @@
 import { ArrowRight } from "lucide-react";
-import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { RevealOnScroll } from "@/components/shared/RevealOnScroll";
 
 export function AboutTeaser() {
-  const t = useTranslations("about");
 
   return (
     <section className="bg-neutral-50 py-24 lg:py-32">

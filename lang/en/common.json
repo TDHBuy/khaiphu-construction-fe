@@ -1,0 +1,43 @@
+{
+  "buttons": {
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "viewDetail": "View details",
+    "contact": "Contact",
+    "contactNow": "Contact us",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "backToList": "Back to list",
+    "exploreServices": "Explore services",
+    "viewProjects": "View projects"
+  },
+  "labels": {
+    "all": "All",
+    "filter": "Filter",
+    "search": "Search",
+    "sort": "Sort"
+  },
+  "status": {
+    "loading": "Loading...",
+    "success": "Success!",
+    "error": "An error occurred. Please try again.",
+    "notFound": "Not found"
+  },
+  "form": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "invalidPhone": "Invalid phone number",
+    "minLength": "Minimum {min} characters",
+    "maxLength": "Maximum {max} characters"
+  },
+  "time": {
+    "workingHours": "Mon - Sat: 8:00 - 17:30",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  }
+}

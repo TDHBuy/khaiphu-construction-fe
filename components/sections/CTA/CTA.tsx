@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { RevealOnScroll } from "@/components/shared/RevealOnScroll";
 
 export function CTA() {
-  const t = useTranslations("cta");
+  const t = useTranslations("home.cta");
 
   return (
     <section className="relative overflow-hidden bg-primary-900 py-20 lg:py-28">

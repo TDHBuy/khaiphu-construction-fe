@@ -1,0 +1,68 @@
+{
+  "site": {
+    "name": "Khải Phú Construction",
+    "nameShort": "Khải Phú",
+    "tagline": "Nền móng vững chắc cho mọi công trình",
+    "description": "Chuyên gia thi công nền móng với hơn 10 năm kinh nghiệm tại Việt Nam. Dịch vụ: Shoring, Cừ Larsen, Kingpost."
+  },
+
+  "home": {
+    "title": "Khải Phú Construction — Nền móng vững chắc cho mọi công trình",
+    "description": "Khải Phú Construction — Chuyên thi công Shoring, ép cừ Larsen và gia công Kingpost. Đối tác tin cậy cho nền móng công trình tại Việt Nam.",
+    "keywords": "thi công shoring, ép cừ larsen, gia công kingpost, chống đỡ hố đào, nền móng công trình"
+  },
+
+  "about": {
+    "companyProfile": {
+      "title": "Hồ sơ công ty — Khải Phú Construction",
+      "description": "Thông tin chi tiết về Công ty TNHH Xây dựng Thương mại Khải Phú. Hơn 10 năm kinh nghiệm thi công nền móng chuyên nghiệp."
+    },
+    "visionMission": {
+      "title": "Tầm nhìn và Sứ mệnh — Khải Phú Construction",
+      "description": "Tầm nhìn và sứ mệnh của Khải Phú Construction trong việc cung cấp giải pháp nền móng an toàn, chất lượng cao."
+    }
+  },
+
+  "services": {
+    "index": {
+      "title": "Dịch vụ thi công nền móng — Khải Phú Construction",
+      "description": "Dịch vụ thi công nền móng chuyên nghiệp: Shoring, Cừ Larsen, Kingpost. Giải pháp toàn diện cho công trình của bạn."
+    },
+    "shoring": {
+      "title": "Thi công Shoring chuyên nghiệp — Khải Phú Construction",
+      "description": "Dịch vụ thi công hệ thống chống đỡ Shoring an toàn, chất lượng cao. Phù hợp mọi loại công trình ngầm và tầng hầm.",
+      "keywords": "thi công shoring, chống đỡ hố đào, shoring hcm, hệ thống chống đỡ"
+    },
+    "larsen": {
+      "title": "Ép cừ Larsen chuyên nghiệp — Khải Phú Construction",
+      "description": "Dịch vụ ép và nhổ cừ Larsen chuyên nghiệp, phù hợp mọi loại địa chất. Thiết bị hiện đại, thi công nhanh chóng.",
+      "keywords": "ép cừ larsen, nhổ cừ larsen, larsen pile, cừ thép larsen"
+    },
+    "kingpost": {
+      "title": "Gia công Kingpost chất lượng cao — Khải Phú Construction",
+      "description": "Dịch vụ gia công và lắp dựng Kingpost theo tiêu chuẩn quốc tế. Phù hợp công trình quy mô lớn.",
+      "keywords": "gia công kingpost, cột kingpost, kingpost fabrication"
+    }
+  },
+
+  "projects": {
+    "title": "Dự án đã thực hiện — Khải Phú Construction",
+    "description": "Danh sách các dự án thi công nền móng tiêu biểu của Khải Phú Construction. Hơn 100+ công trình hoàn thành."
+  },
+
+  "contact": {
+    "title": "Liên hệ — Khải Phú Construction",
+    "description": "Liên hệ với Khải Phú Construction để được tư vấn miễn phí về giải pháp nền móng cho công trình của bạn."
+  },
+
+  "og": {
+    "siteName": "Khải Phú Construction",
+    "locale": "vi_VN",
+    "type": "website"
+  },
+
+  "twitter": {
+    "card": "summary_large_image",
+    "site": "@khaiphuconstruction"
+  }
+}

@@ -14,7 +14,7 @@ const STEPS = [
 ];
 
 export function Process() {
-  const t = useTranslations("process");
+  const t = useTranslations("home.process");
   const containerRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,

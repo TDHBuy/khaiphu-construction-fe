@@ -5,7 +5,7 @@ import { Menu, Search, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
-import { NAV_ITEMS } from "@/lib/constants";
+import { NAV_ITEMS } from "@/constants/navigation";
 import { cn } from "@/lib/utils";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { HeaderSearch } from "./HeaderSearch";
@@ -14,7 +14,7 @@ import { DesktopNavItem } from "./NavItem";
 import Image from "next/image";
 
 export function Header() {
-  const t = useTranslations("nav");
+  const t = useTranslations("navigation");
   const pathname = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);

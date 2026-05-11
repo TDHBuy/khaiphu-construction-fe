@@ -1,0 +1,68 @@
+{
+  "site": {
+    "name": "Khai Phu Construction",
+    "nameShort": "Khai Phu",
+    "tagline": "Solid Foundations for Every Project",
+    "description": "Expert foundation construction with over 10 years of experience in Vietnam. Services: Shoring, Larsen Pile, Kingpost."
+  },
+
+  "home": {
+    "title": "Khai Phu Construction — Solid Foundations for Every Project",
+    "description": "Khai Phu Construction — Specializing in Shoring construction, Larsen pile driving, and Kingpost fabrication. Your trusted partner for foundation works in Vietnam.",
+    "keywords": "shoring construction, larsen pile driving, kingpost fabrication, excavation support, foundation works vietnam"
+  },
+
+  "about": {
+    "companyProfile": {
+      "title": "Company Profile — Khai Phu Construction",
+      "description": "Detailed information about Khai Phu Construction Co., Ltd. Over 10 years of professional foundation construction experience."
+    },
+    "visionMission": {
+      "title": "Vision & Mission — Khai Phu Construction",
+      "description": "Vision and mission of Khai Phu Construction in providing safe, high-quality foundation solutions."
+    }
+  },
+
+  "services": {
+    "index": {
+      "title": "Foundation Construction Services — Khai Phu Construction",
+      "description": "Professional foundation construction services: Shoring, Larsen Pile, Kingpost. Comprehensive solutions for your projects."
+    },
+    "shoring": {
+      "title": "Professional Shoring Construction — Khai Phu Construction",
+      "description": "Safe and high-quality shoring system construction services. Suitable for all types of underground works and basements.",
+      "keywords": "shoring construction, excavation support, shoring hcmc, support system"
+    },
+    "larsen": {
+      "title": "Professional Larsen Pile Driving — Khai Phu Construction",
+      "description": "Professional larsen pile driving and extraction services, suitable for all soil conditions. Modern equipment, fast execution.",
+      "keywords": "larsen pile driving, sheet pile, steel sheet pile, larsen pile vietnam"
+    },
+    "kingpost": {
+      "title": "High-Quality Kingpost Fabrication — Khai Phu Construction",
+      "description": "Kingpost fabrication and installation services according to international standards. Suitable for large-scale projects.",
+      "keywords": "kingpost fabrication, kingpost installation, steel kingpost"
+    }
+  },
+
+  "projects": {
+    "title": "Completed Projects — Khai Phu Construction",
+    "description": "List of notable foundation construction projects by Khai Phu Construction. Over 100+ completed projects."
+  },
+
+  "contact": {
+    "title": "Contact — Khai Phu Construction",
+    "description": "Contact Khai Phu Construction for free consultation on foundation solutions for your projects."
+  },
+
+  "og": {
+    "siteName": "Khai Phu Construction",
+    "locale": "en_US",
+    "type": "website"
+  },
+
+  "twitter": {
+    "card": "summary_large_image",
+    "site": "@khaiphuconstruction"
+  }
+}

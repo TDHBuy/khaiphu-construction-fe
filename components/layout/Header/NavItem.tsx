@@ -3,7 +3,7 @@
 import { ChevronDown } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import type { NavItem } from "@/lib/constants";
+import type { NavItem } from "@/constants/navigation";
 import { cn } from "@/lib/utils";
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
@@ -14,7 +14,7 @@ interface DesktopNavItemProps {
 }
 
 export function DesktopNavItem({ item, isTransparent }: DesktopNavItemProps) {
-  const t = useTranslations("nav");
+  const t = useTranslations("navigation");
 
   if (!item.children) {
     return (
@@ -78,7 +78,7 @@ interface MobileNavItemProps {
 }
 
 export function MobileNavItem({ item, isOpen, onClose, onToggle }: MobileNavItemProps) {
-  const t = useTranslations("nav");
+  const t = useTranslations("navigation");
 
   if (!item.children) {
     return (

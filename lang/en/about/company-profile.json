@@ -1,0 +1,45 @@
+{
+  "breadcrumb": "Company Profile",
+  "hero": {
+    "title": "KHAI PHU",
+    "subtitle": "Specialists in Shoring – Larsen Piles – Kingpost"
+  },
+  "welcome": {
+    "eyebrow": "Welcome Letter",
+    "title": "Partnering for the stability of every underground project",
+    "p1": "In increasingly complex urban environments, excavation support systems are more than engineering structures — they are the foundation that ensures safety for projects and surrounding communities.",
+    "p2": "Khai Phu specializes deeply in three core areas: Shoring construction, Larsen pile driving, and Kingpost fabrication — backed by experienced engineers and modern equipment.",
+    "p3": "We commit to partnering with investors from initial survey to final handover — strictly controlling timelines, costs, and all potential risks.",
+    "signature": "Khong Le Thao Nhu",
+    "signatureRole": "Director"
+  },
+  "info": {
+    "eyebrow": "Legal Information",
+    "title": "Corporate Profile",
+
+    "companyLabel": "Company Name",
+    "companyValue": "KHAI PHU CONSTRUCTION TRADING CO., LTD",
+    "taxLabel": "Tax Code",
+    "taxValue": "0317626935",
+
+    "addressLabel": "Address",
+    "addressValue": "23B Street 3, KP4, An Khanh Ward, Thu Duc City, HCMC",
+
+    "scopeLabel": "Business Scope",
+    "scopeItem1": "Larsen Pile Construction",
+    "scopeItem2": "Excavation Support Systems (Shoring – Kingpost)",
+    "scopeItem3": "Equipment Rental",
+    "scopeItem4": "Transportation",
+
+    "capitalLabel": "Charter Capital",
+    "capitalValue": "1 billion VND",
+    "foundedLabel": "Year Founded",
+    "foundedValue": "2022",
+
+    "representativeLabel": "Legal Representative",
+    "representativeValue": "Khong Le Thao Nhu – Director",
+
+    "projectsTitle": "Featured Projects",
+    "projectsSubtitle": "Selected works completed"
+  }
+}

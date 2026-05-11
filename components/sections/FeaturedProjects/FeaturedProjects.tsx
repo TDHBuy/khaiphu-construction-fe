@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 import { ProjectCard } from "./ProjectCard";
 
 export function FeaturedProjects() {
-  const t = useTranslations("projects");
+  const t = useTranslations("home.projects");
   const scrollRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);

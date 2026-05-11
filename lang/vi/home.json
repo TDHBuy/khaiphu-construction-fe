@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Nền Móng Vững Chắc\nCho Mọi Công Trình",
+    "subtitle": "Khải Phú Construction — Chuyên gia thi công nền móng với hơn 10 năm kinh nghiệm tại Việt Nam.",
+    "cta_primary": "Khám phá dịch vụ",
+    "cta_secondary": "Xem dự án"
+  },
+  "services": {
+    "section_label": "Dịch vụ cốt lõi",
+    "section_title": "Giải pháp nền móng toàn diện",
+    "section_description": "Ba dịch vụ chủ lực giúp công trình của bạn có nền tảng vững chắc nhất.",
+    "shoringConstruction": {
+      "title": "Thi công Shoring",
+      "short": "Hệ thống chống đỡ hố đào an toàn cho công trình ngầm và tầng hầm.",
+      "cta": "Tìm hiểu thêm"
+    },
+    "larsenPile": {
+      "title": "Ép cừ Larsen",
+      "short": "Ép và nhổ cừ Larsen chuyên nghiệp, phù hợp mọi loại địa chất.",
+      "cta": "Tìm hiểu thêm"
+    },
+    "kingpostFabrication": {
+      "title": "Gia công Kingpost",
+      "short": "Gia công và lắp dựng Kingpost chất lượng cao cho công trình quy mô lớn.",
+      "cta": "Tìm hiểu thêm"
+    }
+  },
+  "projects": {
+    "section_label": "Dự án tiêu biểu",
+    "section_title": "Công trình đã thực hiện",
+    "view_all": "Xem tất cả dự án",
+    "view_detail": "Xem chi tiết",
+    "filter_all": "Tất cả",
+    "back_to_projects": "Quay lại danh sách"
+  },
+  "stats": {
+    "section_label": "Năng lực",
+    "section_title": "Khải Phú qua những con số",
+    "projects": "Dự án hoàn thành",
+    "years": "Năm kinh nghiệm",
+    "equipment": "Thiết bị chuyên dụng",
+    "satisfaction": "Khách hàng hài lòng"
+  },
+  "process": {
+    "section_label": "Quy trình",
+    "section_title": "Quy trình thi công chuyên nghiệp",
+    "step_1_title": "Khảo sát",
+    "step_1_desc": "Đánh giá địa chất và điều kiện công trường.",
+    "step_2_title": "Thiết kế",
+    "step_2_desc": "Lập phương án thi công tối ưu.",
+    "step_3_title": "Thi công",
+    "step_3_desc": "Triển khai với thiết bị hiện đại.",
+    "step_4_title": "Nghiệm thu",
+    "step_4_desc": "Bàn giao đạt chuẩn chất lượng cao nhất."
+  },
+  "cta": {
+    "title": "Sẵn sàng hợp tác cùng bạn",
+    "description": "Liên hệ ngay để được tư vấn giải pháp nền móng phù hợp nhất cho công trình của bạn.",
+    "button": "Liên hệ ngay"
+  }
+}

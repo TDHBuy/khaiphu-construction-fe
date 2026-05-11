@@ -1,0 +1,48 @@
+{
+    "buttons": {
+      "learnMore": "Tìm hiểu thêm",
+      "viewAll": "Xem tất cả",
+      "viewDetail": "Xem chi tiết",
+      "contact": "Liên hệ",
+      "contactNow": "Liên hệ ngay",
+      "submit": "Gửi thông tin",
+      "submitting": "Đang gửi...",
+      "backToList": "Quay lại danh sách",
+      "exploreServices": "Khám phá dịch vụ",
+      "viewProjects": "Xem dự án"
+    },
+  
+    "labels": {
+      "all": "Tất cả",
+      "filter": "Lọc",
+      "search": "Tìm kiếm",
+      "sort": "Sắp xếp"
+    },
+  
+    "status": {
+      "loading": "Đang tải...",
+      "success": "Thành công!",
+      "error": "Có lỗi xảy ra. Vui lòng thử lại.",
+      "notFound": "Không tìm thấy"
+    },
+  
+    "form": {
+      "required": "Trường này là bắt buộc",
+      "invalidEmail": "Email không hợp lệ",
+      "invalidPhone": "Số điện thoại không hợp lệ",
+      "minLength": "Tối thiểu {min} ký tự",
+      "maxLength": "Tối đa {max} ký tự"
+    },
+  
+    "time": {
+      "workingHours": "Thứ 2 - Thứ 7: 8:00 - 17:30",
+      "monday": "Thứ 2",
+      "tuesday": "Thứ 3",
+      "wednesday": "Thứ 4",
+      "thursday": "Thứ 5",
+      "friday": "Thứ 6",
+      "saturday": "Thứ 7",
+      "sunday": "Chủ nhật"
+    }
+  }
+  

@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { FEATURED_PROJECTS } from "@/lib/constants";
+import { FEATURED_PROJECTS } from "@/constants/featured_projects";
 
 // Reusable info row component
 interface InfoRowProps {
@@ -25,7 +25,7 @@ function InfoRow({ label, children, className = "" }: InfoRowProps) {
 }
 
 export function CompanyInfo() {
-  const t = useTranslations("about.companyProfile.info");
+  const t = useTranslations("companyProfile.info");
 
   return (
     <section className="bg-neutral-50 py-24 lg:py-32">
@@ -112,11 +112,6 @@ export function CompanyInfo() {
                   </p>
                 </div>
               </div>
-
-              {/* Row 5: Đại diện pháp luật */}
-              <InfoRow label={t("representativeLabel")} className="border-b-0">
-                {t("representativeValue")}
-              </InfoRow>
             </div>
           </motion.div>
 
