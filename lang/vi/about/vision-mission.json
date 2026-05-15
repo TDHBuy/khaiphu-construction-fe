@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "Tầm nhìn & Sứ mệnh | Khải Phú Construction",
+    "description": "Tầm nhìn và sứ mệnh của Khải Phú trong lĩnh vực thi công hệ giằng chống shoring và cừ Larsen"
+  },
+  "hero": {
+    "label": "Khải Phú Construction",
+    "headline": "Xây nền móng vững chắc cho tương lai",
+    "subtitle": "Trở thành đơn vị thi công chuyên sâu trong lĩnh vực hệ giằng chống shoring và cừ Larsen",
+    "ctaPrimary": "Tìm hiểu thêm",
+    "ctaSecondary": "Dự án của chúng tôi"
+  },
+  "vision": {
+    "label": "Tầm nhìn",
+    "labelEn": "Vision",
+    "heading": "Định hướng phát triển dài hạn",
+    "body": "Trở thành đơn vị thi công chuyên sâu trong lĩnh vực hệ giằng chống shoring và cừ Larsen, phục vụ các công trình tầng hầm và công trình ngầm.",
+    "illustrationCaption": "Tầm nhìn 5–10 năm",
+    "points": [
+      {
+        "icon": "target",
+        "text": "Chuyên sâu theo chiều sâu, không rộng"
+      },
+      {
+        "icon": "building-arch",
+        "text": "Shoring làm trọng tâm chiến lược"
+      },
+      {
+        "icon": "tool",
+        "text": "Hoàn thiện năng lực Larsen & Kingpost"
+      }
+    ]
+  },
+  "mission": {
+    "label": "Sứ mệnh",
+    "labelEn": "Mission",
+    "heading": "Cam kết với từng công trình",
+    "body": "Cung cấp giải pháp thi công chống giữ hố đào thông qua hệ cừ Larsen và hệ giằng chống shoring, đảm bảo phù hợp với điều kiện thực tế công trường.",
+    "pillars": [
+      {
+        "icon": "shield-check",
+        "title": "Kiểm soát ổn định hố đào",
+        "description": "Đảm bảo an toàn tuyệt đối trong mọi điều kiện địa chất"
+      },
+      {
+        "icon": "settings-2",
+        "title": "Tối ưu biện pháp thi công",
+        "description": "Linh hoạt điều chỉnh phương án theo thực tế công trường"
+      },
+      {
+        "icon": "building-community",
+        "title": "Hạn chế ảnh hưởng lân cận",
+        "description": "Bảo vệ công trình và môi trường xung quanh"
+      },
+      {
+        "icon": "clock-check",
+        "title": "Đảm bảo tiến độ & kỹ thuật",
+        "description": "Đúng hạn, đúng chuẩn kỹ thuật đặt ra"
+      }
+    ]
+  },
+  "approach": {
+    "label": "Cách tiếp cận",
+    "labelEn": "Our Approach",
+    "heading": "Quy trình triển khai bài bản",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Phân tích điều kiện thực tế",
+        "description": "Khảo sát địa chất, môi trường công trường và yêu cầu kỹ thuật"
+      },
+      {
+        "number": "02",
+        "title": "Lựa chọn biện pháp phù hợp",
+        "description": "Đề xuất phương án shoring / cừ Larsen tối ưu nhất"
+      },
+      {
+        "number": "03",
+        "title": "Triển khai linh hoạt",
+        "description": "Thi công theo kế hoạch, điều chỉnh linh hoạt khi cần"
+      },
+      {
+        "number": "04",
+        "title": "Giám sát & điều chỉnh",
+        "description": "Theo dõi liên tục, xử lý kịp thời các phát sinh"
+      },
+      {
+        "number": "05",
+        "title": "Bàn giao an toàn",
+        "description": "Nghiệm thu đầy đủ, bàn giao đúng tiêu chuẩn kỹ thuật"
+      }
+    ]
+  },
+  "commitment": {
+    "label": "Cam kết của chúng tôi",
+    "labelEn": "Our Commitment",
+    "heading": "Những gì chúng tôi cam kết",
+    "badges": [
+      { "icon": "rocket", "text": "Đáp ứng tiến độ" },
+      { "icon": "shield", "text": "Thi công an toàn" },
+      { "icon": "bolt", "text": "Huy động nhanh" },
+      { "icon": "users", "text": "Phối hợp hiệu quả" }
+    ]
+  }
+}

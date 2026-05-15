@@ -44,7 +44,7 @@ export interface MockProject {
       year: 2023,
       serviceType: "kingpostFabrication",
       coverImage:
-        "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=1200&q=80",
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=80",
       client: "Phú Mỹ Hưng",
     },
     {

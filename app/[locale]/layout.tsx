@@ -2,10 +2,24 @@ import type { Metadata } from "next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { Be_Vietnam_Pro, Inter } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { PageTransition } from "@/components/shared/PageTransition";
+
+const inter = Inter({
+  subsets: ["latin", "vietnamese"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const beVietnamPro = Be_Vietnam_Pro({
+  subsets: ["latin", "vietnamese"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-be-vietnam",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -36,22 +50,22 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <>
-      {/* Sets lang and scroll-behavior on <html> without nesting a second html tag */}
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `document.documentElement.lang="${locale}";document.documentElement.setAttribute('data-scroll-behavior','smooth')`,
-        }}
-      />
-      <NextIntlClientProvider locale={locale} messages={messages}>
-        <div className="flex min-h-screen flex-col">
-          <Header />
-          <main className="flex-1">
-            <PageTransition>{children}</PageTransition>
-          </main>
-          <Footer />
-        </div>
-      </NextIntlClientProvider>
-    </>
+    <html
+      lang={locale} // ✅ locale đúng
+      data-scroll-behavior="smooth" // ✅ không cần script
+      className={`${inter.variable} ${beVietnamPro.variable}`} // ✅ font variables
+    >
+      <body className="font-sans antialiased" suppressHydrationWarning>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <div className="flex min-h-screen flex-col">
+            <Header />
+            <main className="flex-1">
+              <PageTransition>{children}</PageTransition>
+            </main>
+            <Footer />
+          </div>
+        </NextIntlClientProvider>
+      </body>
+    </html>
   );
 }

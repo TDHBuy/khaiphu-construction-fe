@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "Vision & Mission | Khải Phú Construction",
+    "description": "The vision and mission of Khai Phu in shoring systems and Larsen sheet pile construction"
+  },
+  "hero": {
+    "label": "Khải Phú Construction",
+    "headline": "Building a Solid Foundation for the Future",
+    "subtitle": "To become a specialized contractor in shoring systems and Larsen sheet pile construction",
+    "ctaPrimary": "Learn More",
+    "ctaSecondary": "Our Projects"
+  },
+  "vision": {
+    "label": "Vision",
+    "labelEn": "Vision",
+    "heading": "Our Long-term Direction",
+    "body": "To become a specialized contractor in shoring systems and Larsen sheet pile construction, serving basement and underground projects.",
+    "illustrationCaption": "5–10 Year Vision",
+    "points": [
+      {
+        "icon": "target",
+        "text": "Deep specialization, not broad diversification"
+      },
+      {
+        "icon": "building-arch",
+        "text": "Shoring as our strategic core"
+      },
+      {
+        "icon": "tool",
+        "text": "Mastering Larsen & Kingpost capabilities"
+      }
+    ]
+  },
+  "mission": {
+    "label": "Mission",
+    "labelEn": "Mission",
+    "heading": "Our Commitment to Every Project",
+    "body": "To provide excavation support solutions through Larsen sheet pile and shoring systems, ensuring alignment with real on-site conditions.",
+    "pillars": [
+      {
+        "icon": "shield-check",
+        "title": "Excavation Stability Control",
+        "description": "Ensuring absolute safety under all geological conditions"
+      },
+      {
+        "icon": "settings-2",
+        "title": "Optimized Construction Methods",
+        "description": "Flexibly adapting solutions to real site conditions"
+      },
+      {
+        "icon": "building-community",
+        "title": "Minimizing Adjacent Impact",
+        "description": "Protecting surrounding structures and environment"
+      },
+      {
+        "icon": "clock-check",
+        "title": "Schedule & Technical Compliance",
+        "description": "On time, on spec — every project, every time"
+      }
+    ]
+  },
+  "approach": {
+    "label": "Our Approach",
+    "labelEn": "Our Approach",
+    "heading": "A Systematic Execution Process",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Analyze Site Conditions",
+        "description": "Survey geology, site environment and technical requirements"
+      },
+      {
+        "number": "02",
+        "title": "Select the Right Method",
+        "description": "Propose the most optimal shoring / Larsen sheet pile solution"
+      },
+      {
+        "number": "03",
+        "title": "Flexible Deployment",
+        "description": "Execute per plan, adjust flexibly when needed"
+      },
+      {
+        "number": "04",
+        "title": "Monitor & Adjust",
+        "description": "Continuous monitoring, prompt resolution of issues"
+      },
+      {
+        "number": "05",
+        "title": "Safe Handover",
+        "description": "Full inspection and handover to technical standards"
+      }
+    ]
+  },
+  "commitment": {
+    "label": "Our Commitment",
+    "labelEn": "Our Commitment",
+    "heading": "What We Stand For",
+    "badges": [
+      { "icon": "rocket", "text": "Schedule Delivery" },
+      { "icon": "shield", "text": "Safe Construction" },
+      { "icon": "bolt", "text": "Rapid Mobilization" },
+      { "icon": "users", "text": "Effective Collaboration" }
+    ]
+  }
+}

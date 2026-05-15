@@ -9,7 +9,7 @@ export const SERVICES = [
     {
       key: "larsenPile" as const,
       number: "02",
-      image: "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800&q=80",
+      image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
       href: routes.services.larsenPile, // ✅
     },
     {
