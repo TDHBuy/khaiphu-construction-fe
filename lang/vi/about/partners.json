@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "Đối tác | Khải Phú Construction",
+    "description": "Các tổng thầu và nhà thầu chính đã phối hợp thi công cùng Khải Phú trên các công trình hàng đầu Việt Nam"
+  },
+  "hero": {
+    "label": "Đối tác",
+    "title": "Xây dựng bền vững\ntrên nền tảng tin cậy",
+    "description": "Mỗi công trình Khải Phú tham gia đều là kết quả của sự phối hợp chặt chẽ giữa các bên. Chúng tôi không chỉ là đơn vị thi công, mà là đối tác kỹ thuật đồng hành xuyên suốt tiến độ."
+  },
+  "generalContractors": {
+    "label": "Tổng thầu",
+    "title": "Các tổng thầu Khải Phú đã phối hợp thi công",
+    "description": "Khải Phú tham gia thi công trong các dự án do những tổng thầu hàng đầu Việt Nam làm chủ quản lý — đòi hỏi tiêu chuẩn kỹ thuật cao và kỷ luật tiến độ nghiêm ngặt.",
+    "partners": ["Newtecons", "Coteccons", "Central", "Ricons", "Delta"]
+  },
+  "mainContractors": {
+    "label": "Nhà thầu chính - Đối tác",
+    "title": "Nhà thầu chính & đối tác trực tiếp phối hợp thi công",
+    "description": "Khải Phú triển khai thi công thông qua các nhà thầu chính uy tín — đơn vị trực tiếp phối hợp kỹ thuật và giám sát an toàn trên công trường.",
+    "partners": ["Thép Phú Thắng", "King Tai", "Bảo Bình Phát", "Minh Nghĩa", "Horizon", "Thăng Long"]
+  },
+  "cta": {
+    "label": "Cùng nhau xây dựng",
+    "title": "Liên hệ với chúng tôi",
+    "description": "Đồng hành trên công trường — Khải Phú sẵn sàng phối hợp cùng đội ngũ của bạn từ ngày đầu triển khai.",
+    "button": "Liên hệ ngay"
+  }
+}
