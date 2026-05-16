@@ -1,0 +1,110 @@
+
+> khaiphu-construction@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.7:3000
+- Environments: .env.local
+✓ Ready in 3.9s
+- Experiments (use with caution):
+  · optimizePackageImports
+
+○ Compiling /[locale]/about/company-profile ...
+[Request] ALL HEADERS:
+host: localhost:3000
+connection: keep-alive
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-dest: document
+referer: http://localhost:3000/vi/about/company-profile
+accept-encoding: gzip, deflate, br, zstd
+accept-language: vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5
+cookie: Idea-6e7e3232=4a1888ae-c148-44b4-a6a5-9cc7dc6c7615; __next_hmr_refresh_hash__=56
+x-forwarded-host: localhost:3000
+x-forwarded-port: 3000
+x-forwarded-proto: http
+x-forwarded-for: ::1
+x-next-intl-locale: vi
+link: <http://localhost:3000/about/company-profile>; rel="alternate"; hreflang="en", <http://localhost:3000/vi/about/company-profile>; rel="alternate"; hreflang="vi", <http://localhost:3000/about/company-profile>; rel="alternate"; hreflang="x-default"
+x-middleware-request-pathname: /vi/about/company-profile
+[Request] Loading namespace "companyProfile" for path "/vi/about/company-profile"
+[Request] ALL HEADERS:
+user-agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.8457
+host: localhost:3000
+connection: Keep-Alive
+x-forwarded-host: localhost:3000
+x-forwarded-port: 3000
+x-forwarded-proto: http
+x-forwarded-for: ::1
+x-next-intl-locale: en
+link: <http://localhost:3000/>; rel="alternate"; hreflang="en", <http://localhost:3000/vi>; rel="alternate"; hreflang="vi", <http://localhost:3000/>; rel="alternate"; hreflang="x-default"
+set-cookie: NEXT_LOCALE=en; Path=/; SameSite=lax
+x-middleware-request-pathname: /
+x-middleware-set-cookie: NEXT_LOCALE=en; Path=/; SameSite=lax
+[Request] Loading namespace "home" for path "/"
+ GET / 200 in 13.2s (next.js: 12.8s, proxy.ts: 12ms, generate-params: 1501ms, application-code: 293ms)
+ GET /vi/about/company-profile 200 in 19.1s (next.js: 17.9s, proxy.ts: 242ms, generate-params: 981ms, application-code: 974ms)
+[Request] ALL HEADERS:
+user-agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.8457
+host: localhost:3000
+x-forwarded-host: localhost:3000
+x-forwarded-port: 3000
+x-forwarded-proto: http
+x-forwarded-for: ::1
+x-next-intl-locale: vi
+link: <http://localhost:3000/>; rel="alternate"; hreflang="en", <http://localhost:3000/vi>; rel="alternate"; hreflang="vi", <http://localhost:3000/>; rel="alternate"; hreflang="x-default"
+set-cookie: NEXT_LOCALE=vi; Path=/; SameSite=lax
+x-middleware-request-pathname: /vi
+x-middleware-set-cookie: NEXT_LOCALE=vi; Path=/; SameSite=lax
+[Request] Loading namespace "home" for path "/vi"
+ GET /vi 200 in 486ms (next.js: 50ms, proxy.ts: 15ms, generate-params: 21ms, application-code: 421ms)
+[Request] ALL HEADERS:
+user-agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.8457
+host: localhost:3000
+x-forwarded-host: localhost:3000
+x-forwarded-port: 3000
+x-forwarded-proto: http
+x-forwarded-for: ::1
+x-next-intl-locale: vi
+link: <http://localhost:3000/about/company-profile>; rel="alternate"; hreflang="en", <http://localhost:3000/vi/about/company-profile>; rel="alternate"; hreflang="vi", <http://localhost:3000/about/company-profile>; rel="alternate"; hreflang="x-default"
+set-cookie: NEXT_LOCALE=vi; Path=/; SameSite=lax
+x-middleware-request-pathname: /vi/about/company-profile
+x-middleware-set-cookie: NEXT_LOCALE=vi; Path=/; SameSite=lax
+[Request] Loading namespace "companyProfile" for path "/vi/about/company-profile"
+ GET /vi/about/company-profile 200 in 249ms (next.js: 24ms, proxy.ts: 7ms, generate-params: 16ms, application-code: 218ms)
+[Request] ALL HEADERS:
+user-agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.8457
+host: localhost:3000
+x-forwarded-host: localhost:3000
+x-forwarded-port: 3000
+x-forwarded-proto: http
+x-forwarded-for: ::1
+x-next-intl-locale: vi
+link: <http://localhost:3000/about/vision-mission>; rel="alternate"; hreflang="en", <http://localhost:3000/vi/about/vision-mission>; rel="alternate"; hreflang="vi", <http://localhost:3000/about/vision-mission>; rel="alternate"; hreflang="x-default"
+set-cookie: NEXT_LOCALE=vi; Path=/; SameSite=lax
+x-middleware-request-pathname: /vi/about/vision-mission
+x-middleware-set-cookie: NEXT_LOCALE=vi; Path=/; SameSite=lax
+[Request] ALL HEADERS:
+user-agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.8457
+host: localhost:3000
+x-forwarded-host: localhost:3000
+x-forwarded-port: 3000
+x-forwarded-proto: http
+x-forwarded-for: ::1
+x-next-intl-locale: vi
+link: <http://localhost:3000/about/vision-mission>; rel="alternate"; hreflang="en", <http://localhost:3000/vi/about/vision-mission>; rel="alternate"; hreflang="vi", <http://localhost:3000/about/vision-mission>; rel="alternate"; hreflang="x-default"
+set-cookie: NEXT_LOCALE=vi; Path=/; SameSite=lax
+x-middleware-request-pathname: /vi/about/vision-mission
+x-middleware-set-cookie: NEXT_LOCALE=vi; Path=/; SameSite=lax
+[Request] Loading namespace "visionMission" for path "/vi/about/vision-mission"
+[Request] Loading namespace "visionMission" for path "/vi/about/vision-mission"
+ GET /vi/about/vision-mission 200 in 1693ms (next.js: 1554ms, proxy.ts: 9ms, generate-params: 625ms, application-code: 131ms)
+[?25h
