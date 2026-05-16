@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "Partners | Khai Phu Construction",
+    "description": "General contractors and main contractors that have collaborated with Khai Phu on leading construction projects across Vietnam"
+  },
+  "hero": {
+    "label": "Partnership",
+    "title": "Built on Trust,\nGrown Together",
+    "description": "Every project Khai Phu participates in is the result of close collaboration between all parties. We are not just a construction unit, but a technical partner committed throughout the entire project timeline."
+  },
+  "generalContractors": {
+    "label": "General Contractors",
+    "title": "General Contractors We Have Worked With",
+    "description": "Khai Phu has participated in projects managed by Vietnam's leading general contractors — demanding high technical standards and strict schedule discipline.",
+    "partners": ["Newtecons", "Coteccons", "Central", "Ricons", "Delta"]
+  },
+  "mainContractors": {
+    "label": "Main Contractors - Partners",
+    "title": "Main Contractors & Direct Construction Partners",
+    "description": "Khai Phu carries out construction through reputable main contractors — units that directly coordinate technical execution and oversee site safety.",
+    "partners": ["Phu Thang Steel", "King Tai", "Bao Binh Phat", "Minh Nghia", "Horizon", "Thang Long"]
+  },
+  "cta": {
+    "label": "Build Together",
+    "title": "Contact Us",
+    "description": "With you on the construction site — Khai Phu is ready to work alongside your team from day one of deployment.",
+    "button": "Get In Touch"
+  }
+}

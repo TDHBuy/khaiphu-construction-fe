@@ -28,6 +28,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ).default,
     visionMission: (await import(`../lang/${locale}/about/vision-mission.json`))
       .default,
+    partners: (await import(`../lang/${locale}/about/partners.json`)).default,
   };
   return { locale, messages };
 });

@@ -48,8 +48,7 @@ export function HeroBanner() {
             {tNav("home")}
           </Link>
           <ChevronRight size={14} className="text-white/40" />
-          <span className="text-white/80">{tNav("about")}</span>
-          <ChevronRight size={14} className="text-white/40" />
+          <span className="text-[#ffcb05]">{tNav("about")}</span>
           {/* <span className="text-white">{t("breadcrumb")}</span> */}
         </motion.nav>
 
@@ -60,7 +59,7 @@ export function HeroBanner() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="font-display text-6xl font-extrabold leading-[0.95] tracking-tight text-white sm:text-7xl lg:text-8xl xl:text-[120px]"
         >
-          {/* {t("hero.title")} */}
+          {t("hero.title")}
         </motion.h1>
 
         {/* Subtitle */}
@@ -70,7 +69,7 @@ export function HeroBanner() {
           transition={{ duration: 0.7, delay: 0.5 }}
           className="mt-6 max-w-2xl text-lg font-light text-white/90 sm:text-xl lg:text-2xl"
         >
-          {/* {t("hero.subtitle")} */}
+          {t("hero.subtitle")}
         </motion.p>
       </div>
 
