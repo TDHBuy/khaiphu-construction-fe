@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "Core Competencies | Khai Phu Construction",
+    "description": "Khai Phu specializes in Shoring systems, Larsen sheet piling, Kingpost installation and steel fabrication with flexible deployment capabilities."
+  },
+  "hero": {
+    "breadcrumb": "KHAI PHU / CORE COMPETENCIES",
+    "title": "CORE /\nCOMPETENCIES",
+    "sub": "Specialized in Larsen sheet piling, Kingpost and Shoring systems"
+  },
+  "positioning": {
+    "label": "POSITIONING",
+    "labelEn": "POSITIONING",
+    "body": "Khai Phu is a specialized construction company in Larsen sheet piling, Kingpost and Shoring systems, with flexible deployment capabilities and hands-on field experience.",
+    "pills": ["Shoring Systems", "Larsen / Kingpost", "Steel Fabrication"]
+  },
+  "mainCapabilities": {
+    "sectionTitle": "MAIN CONSTRUCTION CAPABILITIES",
+    "items": [
+      {
+        "number": "01",
+        "label": "SHORING",
+        "labelEn": "SHORING",
+        "title": "SHORING SYSTEMS",
+        "body": "Constructing large-scale shoring systems, deployable in multiple configurations",
+        "checklist": ["Large volume", "Single layer", "Multi-layer", "Diagonal bracing"]
+      },
+      {
+        "number": "02",
+        "label": "LARSEN PILE",
+        "labelEn": "LARSEN PILE",
+        "title": "LARSEN SHEET PILING / KINGPOST",
+        "body": "Installing Larsen / Kingpost using Silent Piler and crawler excavator with vibratory hammer",
+        "checklist": ["Silent Piler (static press)", "Crawler excavator with vibratory hammer"]
+      },
+      {
+        "number": "03",
+        "label": "KINGPOST EXTRACTION",
+        "labelEn": "KINGPOST EXTRACTION",
+        "title": "KINGPOST EXTRACTION",
+        "body": "Extracting Kingpost using manual equipment",
+        "checklist": ["Manual equipment", "Hydraulic jack"]
+      },
+      {
+        "number": "04",
+        "label": "STEEL FABRICATION",
+        "labelEn": "STEEL FABRICATION",
+        "title": "STEEL STRUCTURE FABRICATION",
+        "body": "Fabricating steel structures for Shoring systems",
+        "checklist": ["For Shoring systems", "Kingpost welding", "Kingpost head cutting"]
+      }
+    ]
+  },
+  "equipment": {
+    "sectionTitle": "CONSTRUCTION EQUIPMENT CAPABILITIES",
+    "callout": "Equipment is inspected regularly, committed to optimal operating performance and absolute safety on site.",
+    "items": [
+      {
+        "title": "Silent Piler",
+        "desc": "Static pile pressing system, vibration-free, suitable for urban construction"
+      },
+      {
+        "title": "Crawler excavator with vibratory hammer",
+        "desc": "Installing Larsen and Kingpost at open construction sites"
+      },
+      {
+        "title": "Rubber-tired / crawler crane",
+        "desc": "Lifting and installing steel structures for shoring systems on site"
+      },
+      {
+        "title": "Hydraulic Kingpost extraction jack",
+        "desc": "Specialized equipment for extracting Kingpost by manual method"
+      },
+      {
+        "title": "Welding machines, torque guns & auxiliary tools",
+        "desc": "Supporting fabrication, assembly and finishing of structures on site"
+      }
+    ]
+  },
+  "deployment": {
+    "sectionTitle": "DEPLOYMENT CAPABILITIES",
+    "subtitle": "Flexible — On Schedule — Efficient",
+    "items": [
+      {
+        "number": "01",
+        "name": "PARALLEL CONSTRUCTION",
+        "desc": "Meeting quality and project schedule requirements"
+      },
+      {
+        "number": "02",
+        "name": "FLEXIBLE RESOURCES",
+        "desc": "Rapid mobilization of equipment and manpower per site requirements"
+      },
+      {
+        "number": "03",
+        "name": "EFFECTIVE COORDINATION",
+        "desc": "Direct coordination with general contractors throughout construction"
+      },
+      {
+        "number": "04",
+        "name": "SCHEDULE ASSURANCE",
+        "desc": "Proactively handling real-world situations and urgent schedule demands"
+      }
+    ]
+  },
+  "safety": {
+    "sectionTitle": "SAFETY & CONSTRUCTION CONTROL",
+    "nodes": [
+      {
+        "number": "01",
+        "name": "CONSTRUCTION",
+        "desc": "Constructing per approved design methodology"
+      },
+      {
+        "number": "02",
+        "name": "CONTROL",
+        "desc": "Monitoring stability of Larsen piles and Shoring systems"
+      },
+      {
+        "number": "03",
+        "name": "ASSURANCE",
+        "desc": "Minimizing displacement and impact on adjacent structures"
+      },
+      {
+        "number": "04",
+        "name": "SAFETY",
+        "desc": "Ensuring safety during construction and equipment inspection before operation"
+      },
+      {
+        "number": "05",
+        "name": "QUALITY",
+        "desc": "Ensuring construction quality and technical requirements"
+      }
+    ]
+  }
+}

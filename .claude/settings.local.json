@@ -20,7 +20,10 @@
       "Bash(Get-ChildItem -Path \"D:\\\\KhaiPhuConstruction\\\\khaiphu-construction\" -Recurse -Directory -Filter \"lang\")",
       "Bash(Select-Object -ExpandProperty FullName)",
       "Bash(rtk npm *)",
-      "PowerShell(Start-Sleep -Seconds 12; $routes = @\\(\"/\", \"/vi\", \"/vi/about/company-profile\", \"/vi/about/vision-mission\", \"/en/about/company-profile\", \"/en/about/vision-mission\"\\); foreach \\($r in $routes\\) { try { $res = Invoke-WebRequest -Uri \"http://localhost:3000$r\" -MaximumRedirection 0 -ErrorAction SilentlyContinue -UseBasicParsing; \"$r -> $\\($res.StatusCode\\)\" } catch { $sc = $_.Exception.Response.StatusCode.value__; \"$r -> $sc\" } })"
+      "PowerShell(Start-Sleep -Seconds 12; $routes = @\\(\"/\", \"/vi\", \"/vi/about/company-profile\", \"/vi/about/vision-mission\", \"/en/about/company-profile\", \"/en/about/vision-mission\"\\); foreach \\($r in $routes\\) { try { $res = Invoke-WebRequest -Uri \"http://localhost:3000$r\" -MaximumRedirection 0 -ErrorAction SilentlyContinue -UseBasicParsing; \"$r -> $\\($res.StatusCode\\)\" } catch { $sc = $_.Exception.Response.StatusCode.value__; \"$r -> $sc\" } })",
+      "Bash(Get-ChildItem -Path \"D:\\\\KhaiPhuConstruction\\\\khaiphu-construction\\\\.claude\\\\worktrees\\\\about+core-competencies\" -Force)",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "Bash(rtk next *)"
     ]
   }
 }

@@ -29,6 +29,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     visionMission: (await import(`../lang/${locale}/about/vision-mission.json`))
       .default,
     partners: (await import(`../lang/${locale}/about/partners.json`)).default,
+    coreCompetencies: (await import(`../lang/${locale}/about/core-competencies.json`)).default,
   };
   return { locale, messages };
 });

@@ -51,9 +51,9 @@ export default async function LocaleLayout({
 
   return (
     <html
-      lang={locale} // ✅ locale đúng
-      data-scroll-behavior="smooth" // ✅ không cần script
-      className={`${inter.variable} ${beVietnamPro.variable}`} // ✅ font variables
+      lang={locale}
+      data-scroll-behavior="smooth"
+      className={`${inter.variable} ${beVietnamPro.variable}`}
     >
       <body className="font-sans antialiased" suppressHydrationWarning>
         <NextIntlClientProvider locale={locale} messages={messages}>
