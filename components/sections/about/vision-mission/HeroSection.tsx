@@ -4,9 +4,10 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { fadeUp, fadeIn } from "@/components/shared/animations";
-
+import { ChevronRight } from "lucide-react";
 export default function HeroSection() {
   const t = useTranslations("visionMission.hero");
+  const tNav = useTranslations("navigation");
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0A4D9C]">
       {/* Grid texture */}
@@ -28,18 +29,25 @@ export default function HeroSection() {
       <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-32 grid lg:grid-cols-2 gap-12 items-center">
         {/* ── Text block ── */}
         <div>
-          <motion.div
+          <motion.nav
             initial="hidden"
             animate="visible"
             custom={0}
             variants={fadeUp}
-            className="flex items-center gap-3 mb-6"
+            className="flex items-center gap-2"
+            aria-label="Breadcrumb"
           >
-            <span className="block w-8 h-[2px] bg-[#FFCB05]" />
-            <span className="text-[#FFCB05] text-xs font-semibold tracking-[0.25em] uppercase">
-              {t("label")}
+            <Link
+              href="/"
+              className="text-white/60 hover:text-[#ffcb05] transition-colors no-underline text-[11px] font-semibold tracking-[0.22em] uppercase font-sans"
+            >
+              {tNav("home").toUpperCase()}
+            </Link>
+            <ChevronRight size={12} className="text-white/40" />
+            <span className="text-[#ffcb05] text-[11px] font-semibold tracking-[0.22em] uppercase font-sans">
+              {tNav("visionMission").toUpperCase()}
             </span>
-          </motion.div>
+          </motion.nav>
 
           <motion.h1
             initial="hidden"

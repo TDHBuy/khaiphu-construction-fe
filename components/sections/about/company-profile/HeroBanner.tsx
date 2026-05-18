@@ -5,7 +5,7 @@ import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-
+import { fadeUp } from "@/components/shared/animations";
 export function HeroBanner() {
   const t = useTranslations("companyProfile");
   const tNav = useTranslations("navigation");
@@ -38,18 +38,23 @@ export function HeroBanner() {
       <div className="container-custom relative z-10 pb-20 pt-32 lg:pb-28">
         {/* Breadcrumb */}
         <motion.nav
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="mb-8 flex items-center gap-2 text-sm text-white/80"
+          initial="hidden"
+          animate="visible"
+          custom={0}
+          variants={fadeUp}
+          className="flex items-center gap-2"
           aria-label="Breadcrumb"
         >
-          <Link href="/" className="transition-colors hover:text-accent-400">
-            {tNav("home")}
+          <Link
+            href="/"
+            className="text-white/60 hover:text-[#ffcb05] transition-colors no-underline text-[11px] font-semibold tracking-[0.22em] uppercase font-sans"
+          >
+            {tNav("home").toUpperCase()}
           </Link>
-          <ChevronRight size={14} className="text-white/40" />
-          <span className="text-[#ffcb05]">{tNav("about")}</span>
-          {/* <span className="text-white">{t("breadcrumb")}</span> */}
+          <ChevronRight size={12} className="text-white/40" />
+          <span className="text-[#ffcb05] text-[11px] font-semibold tracking-[0.22em] uppercase font-sans">
+            {tNav("companyProfile").toUpperCase()}
+          </span>
         </motion.nav>
 
         {/* Main title */}
@@ -72,23 +77,6 @@ export function HeroBanner() {
           {t("hero.subtitle")}
         </motion.p>
       </div>
-
-      {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 lg:block"
-      >
-        <div className="flex flex-col items-center gap-2 text-white/60">
-          <span className="text-[10px] uppercase tracking-[0.3em]">Scroll</span>
-          <motion.div
-            animate={{ y: [0, 8, 0] }}
-            transition={{ duration: 2, repeat: Infinity }}
-            className="h-8 w-px bg-white/40"
-          />
-        </div>
-      </motion.div>
     </section>
   );
 }

@@ -49,17 +49,19 @@ export default function HeroSection() {
           animate="visible"
           custom={0}
           variants={fadeUp}
-          className="flex items-center gap-2.5 text-[13px] text-white/60"
+          className="flex items-center gap-2"
           aria-label="Breadcrumb"
         >
           <Link
             href="/"
-            className="text-white/60 hover:text-[#ffcb05] transition-colors duration-200 no-underline"
+            className="text-white/60 hover:text-[#ffcb05] transition-colors no-underline text-[11px] font-semibold tracking-[0.22em] uppercase font-sans"
           >
-            {tNav("home")}
+            {tNav("home").toUpperCase()}
           </Link>
-          <ChevronRight size={14} className="text-white/40" />
-          <span className="text-[#ffcb05]">{tNav("partners")}</span>
+          <ChevronRight size={12} className="text-white/40" />
+          <span className="text-[#ffcb05] text-[11px] font-semibold tracking-[0.22em] uppercase font-sans">
+            {tNav("partners").toUpperCase()}
+          </span>
         </motion.nav>
         {/* Title */}
         <motion.h1

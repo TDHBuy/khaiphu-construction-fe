@@ -5,7 +5,7 @@
   },
   "hero": {
     "breadcrumb": "KHAI PHU / CORE COMPETENCIES",
-    "title": "CORE /\nCOMPETENCIES",
+    "title": "CORE COMPETENCIES",
     "sub": "Specialized in Larsen sheet piling, Kingpost and Shoring systems"
   },
   "positioning": {
@@ -18,23 +18,31 @@
     "sectionTitle": "MAIN CONSTRUCTION CAPABILITIES",
     "items": [
       {
-        "number": "01",
+        "id": "shoring",
         "label": "SHORING",
         "labelEn": "SHORING",
         "title": "SHORING SYSTEMS",
         "body": "Constructing large-scale shoring systems, deployable in multiple configurations",
-        "checklist": ["Large volume", "Single layer", "Multi-layer", "Diagonal bracing"]
+        "checklist": [
+          "Large volume",
+          "Single layer",
+          "Multi-layer",
+          "Diagonal bracing"
+        ]
       },
       {
-        "number": "02",
+        "id": "larsenKingpost",
         "label": "LARSEN PILE",
         "labelEn": "LARSEN PILE",
         "title": "LARSEN SHEET PILING / KINGPOST",
         "body": "Installing Larsen / Kingpost using Silent Piler and crawler excavator with vibratory hammer",
-        "checklist": ["Silent Piler (static press)", "Crawler excavator with vibratory hammer"]
+        "checklist": [
+          "Silent Piler (static press)",
+          "Crawler excavator with vibratory hammer"
+        ]
       },
       {
-        "number": "03",
+        "id": "kingpostExtraction",
         "label": "KINGPOST EXTRACTION",
         "labelEn": "KINGPOST EXTRACTION",
         "title": "KINGPOST EXTRACTION",
@@ -42,36 +50,45 @@
         "checklist": ["Manual equipment", "Hydraulic jack"]
       },
       {
-        "number": "04",
+        "id": "steelStructureConstruction",
         "label": "STEEL FABRICATION",
         "labelEn": "STEEL FABRICATION",
         "title": "STEEL STRUCTURE FABRICATION",
         "body": "Fabricating steel structures for Shoring systems",
-        "checklist": ["For Shoring systems", "Kingpost welding", "Kingpost head cutting"]
+        "checklist": [
+          "For Shoring systems",
+          "Kingpost welding",
+          "Kingpost head cutting"
+        ]
       }
     ]
   },
   "equipment": {
     "sectionTitle": "CONSTRUCTION EQUIPMENT CAPABILITIES",
-    "callout": "Equipment is inspected regularly, committed to optimal operating performance and absolute safety on site.",
+    "callout": "Owning a specialized equipment system that provides comprehensive solutions for excavation and Shoring works. All equipment undergoes periodic inspections, ensuring optimal operational performance and absolute safety on-site.",
     "items": [
       {
+        "id": "silentPiler",
         "title": "Silent Piler",
         "desc": "Static pile pressing system, vibration-free, suitable for urban construction"
       },
       {
+        "id": "crawlerExcavator",
         "title": "Crawler excavator with vibratory hammer",
         "desc": "Installing Larsen and Kingpost at open construction sites"
       },
       {
+        "id": "crawlerCrane",
         "title": "Rubber-tired / crawler crane",
         "desc": "Lifting and installing steel structures for shoring systems on site"
       },
       {
+        "id": "hydraulicKingpost",
         "title": "Hydraulic Kingpost extraction jack",
         "desc": "Specialized equipment for extracting Kingpost by manual method"
       },
       {
+        "id": "weldingMachines",
         "title": "Welding machines, torque guns & auxiliary tools",
         "desc": "Supporting fabrication, assembly and finishing of structures on site"
       }

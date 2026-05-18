@@ -18,7 +18,7 @@
     "sectionTitle": "NĂNG LỰC THI CÔNG CHÍNH",
     "items": [
       {
-        "number": "01",
+        "id": "shoring",
         "label": "HỆ GIẰNG CHỐNG",
         "labelEn": "SHORING",
         "title": "HỆ GIẰNG CHỐNG (SHORING)",
@@ -26,7 +26,7 @@
         "checklist": ["Khối lượng lớn", "1 lớp", "Nhiều lớp", "Chống xiên"]
       },
       {
-        "number": "02",
+        "id": "larsenKingpost",
         "label": "CỪ LARSEN",
         "labelEn": "LARSEN PILE",
         "title": "CỪ LARSEN / KINGPOST",
@@ -37,7 +37,7 @@
         ]
       },
       {
-        "number": "03",
+        "id": "kingpostExtraction",
         "label": "RÚT KINGPOST",
         "labelEn": "KINGPOST EXTRACTION",
         "title": "RÚT KINGPOST",
@@ -45,7 +45,7 @@
         "checklist": ["Thiết bị thủ công", "Kích thủy lực"]
       },
       {
-        "number": "04",
+        "id": "steelStructureConstruction",
         "label": "GIA CÔNG THÉP",
         "labelEn": "STEEL FABRICATION",
         "title": "GIA CÔNG KẾT CẤU THÉP",
@@ -60,25 +60,30 @@
   },
   "equipment": {
     "sectionTitle": "NĂNG LỰC THIẾT BỊ THI CÔNG",
-    "callout": "Thiết bị được kiểm tra định kỳ, cam kết hiệu suất vận hành tối ưu và an toàn tuyệt đối tại công trường.",
+    "callout": "Sở hữu hệ thống thiết bị chuyên dụng, đáp ứng trọn gói các giải pháp thi công hố đào và Hệ giằng chống (Shoring). Thiết bị được kiểm tra định kỳ, cam kết hiệu suất vận hành tối ưu và an toàn tuyệt đối tại công trường.",
     "items": [
       {
+        "id": "silentPiler",
         "title": "Robot ép cừ (Silent Piler)",
         "desc": "Hệ thống ép cừ tĩnh, không rung động, phù hợp công trình đô thị"
       },
       {
+        "id": "crawlerExcavator",
         "title": "Xe đào bánh xích gắn búa rung",
         "desc": "Thi công cừ Larsen và Kingpost tại các công trường có không gian rộng"
       },
       {
+        "id": "crawlerCrane",
         "title": "Cẩu bánh lốp / bánh xích",
         "desc": "Phục vụ cẩu lắp kết cấu thép hệ giằng chống tại công trường"
       },
       {
+        "id": "hydraulicKingpost",
         "title": "Kích thủy lực nhổ Kingpost",
         "desc": "Thiết bị chuyên dụng nhổ Kingpost bằng phương pháp thủ công"
       },
       {
+        "id": "weldingMachines",
         "title": "Máy hàn, súng xiết bulong & thiết bị phụ trợ",
         "desc": "Hỗ trợ gia công, lắp dựng và hoàn thiện kết cấu tại công trường"
       }

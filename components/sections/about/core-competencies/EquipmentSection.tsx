@@ -6,15 +6,15 @@ import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { fadeUp } from "@/components/shared/animations";
 
-const EQUIPMENT_IMAGES = [
-  "https://picsum.photos/seed/piler01/600/400",
-  "https://picsum.photos/seed/excavator02/600/400",
-  "https://picsum.photos/seed/crane03/600/400",
-  "https://picsum.photos/seed/hydraulic04/600/400",
-  "https://picsum.photos/seed/tools05/600/400",
-];
+const EQUIPMENT_IMAGES: Record<string, string> = {
+  silentPiler: "/images/about/equipments/silent-piler.jpg",
+  crawlerExcavator: "/images/about/equipments/crawler-excavator.jpg",
+  crawlerCrane: "/images/about/equipments/crawler-crane.jpg",
+  hydraulicKingpost: "/images/about/equipments/hydraulic-kingpost.png",
+  weldingMachines: "/images/about/equipments/welding-machines.png",
+};
 
-type EquipmentItem = { title: string; desc: string };
+type EquipmentItem = { title: string; desc: string; id: string };
 
 function EquipmentCard({
   item,
@@ -41,14 +41,15 @@ function EquipmentCard({
         boxShadow: "0 12px 40px rgba(10,77,156,.18)",
       }}
     >
-      {/* Image 3/2 */}
-      <div className="relative overflow-hidden" style={{ aspectRatio: "3/2" }}>
+      {/* Image 4/5 */}
+      <div className="relative overflow-hidden" style={{ aspectRatio: "4/5" }}>
         <Image
-          src={EQUIPMENT_IMAGES[index]}
+          src={EQUIPMENT_IMAGES[item.id]}
           alt={item.title}
           fill
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+          sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw"
           className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+          loading="eager"
         />
       </div>
 
@@ -101,7 +102,9 @@ export default function EquipmentSection() {
         {/* Grid */}
         <div
           className="grid gap-6"
-          style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}
+          style={{
+            gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+          }}
         >
           {items.map((item, i) => (
             <EquipmentCard key={i} item={item} index={i} inView={inView} />
@@ -123,7 +126,11 @@ export default function EquipmentSection() {
         >
           <span
             className="flex-shrink-0 text-[#ffcb05] select-none"
-            style={{ fontSize: "40px", lineHeight: 0.8, fontFamily: "Georgia, serif" }}
+            style={{
+              fontSize: "40px",
+              lineHeight: 0.8,
+              fontFamily: "Georgia, serif",
+            }}
           >
             "
           </span>

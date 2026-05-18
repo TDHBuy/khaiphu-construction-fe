@@ -12,19 +12,19 @@ import type { LucideIcon } from "lucide-react";
 const CARD_META: { Icon: LucideIcon; imgSrc: string }[] = [
   {
     Icon: Layers,
-    imgSrc: "https://picsum.photos/seed/deploy-parallel/600/400",
+    imgSrc: "/images/about/deployment-capabilities/parallel-construction.jpg",
   },
   {
     Icon: Zap,
-    imgSrc: "https://picsum.photos/seed/deploy-resource/600/400",
+    imgSrc: "/images/about/deployment-capabilities/flexible-resources.jpg",
   },
   {
     Icon: Users,
-    imgSrc: "https://picsum.photos/seed/deploy-coord/600/400",
+    imgSrc: "/images/about/deployment-capabilities/effective-coordination.jpg",
   },
   {
     Icon: Clock,
-    imgSrc: "https://picsum.photos/seed/deploy-schedule/600/400",
+    imgSrc: "/images/about/deployment-capabilities/schedule-insurance.jpg",
   },
 ];
 
@@ -130,7 +130,7 @@ export default function DeploymentSection() {
                   <p
                     className="font-sans m-0"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "17px",
                       color: "rgba(255,255,255,0.70)",
                       lineHeight: 1.6,
                     }}

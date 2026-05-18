@@ -42,3 +42,6 @@ next-env.d.ts
 
 # RTK (token optimizer tool data)
 .rtk/
+
+# Claude Code
+.claude/

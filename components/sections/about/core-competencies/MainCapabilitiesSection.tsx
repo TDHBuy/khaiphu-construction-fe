@@ -6,19 +6,20 @@ import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { fadeUp, slideLeft, slideRight } from "@/components/shared/animations";
 
-const IMAGE_SEEDS = [
-  "https://picsum.photos/seed/shoring01/800/600",
-  "https://picsum.photos/seed/larsen02/800/600",
-  "https://picsum.photos/seed/kingpost03/800/600",
-  "https://picsum.photos/seed/steel04/800/600",
-];
+const IMAGE_SEEDS: Record<string, string> = {
+  shoring: "/images/about/main-capabilities/shoring.jpg",
+  larsenKingpost: "/images/about/main-capabilities/larsen-kingpost.jpg",
+  kingpostExtraction: "/images/about/main-capabilities/kingpost-extraction.jpg",
+  steelStructureConstruction:
+    "/images/main-capabilities/steel-structure-construction.jpg",
+};
 
 type CapabilityItem = {
-  number: string;
   label: string;
   title: string;
   body: string;
   checklist: string[];
+  id: string;
 };
 
 function CapabilityRow({
@@ -47,11 +48,12 @@ function CapabilityRow({
         style={{ aspectRatio: "4/3" }}
       >
         <Image
-          src={IMAGE_SEEDS[index]}
+          src={IMAGE_SEEDS[item.id]}
           alt={item.title}
           fill
           sizes="(max-width: 768px) 100vw, 60vw"
           className="object-cover transition-transform duration-500 hover:scale-[1.03]"
+          loading="eager"
         />
       </motion.div>
     </div>
@@ -67,7 +69,7 @@ function CapabilityRow({
       style={{ padding: "clamp(40px,5vw,72px)" }}
     >
       {/* Watermark number */}
-      <span
+      {/* <span
         className="absolute top-4 right-6 font-display font-extrabold select-none pointer-events-none"
         style={{
           fontSize: "clamp(64px,8vw,96px)",
@@ -76,7 +78,7 @@ function CapabilityRow({
         }}
       >
         {item.number}
-      </span>
+      </span> */}
 
       {/* Label */}
       <div className="flex items-center gap-3 mb-4">
