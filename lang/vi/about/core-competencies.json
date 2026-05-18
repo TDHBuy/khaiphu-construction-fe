@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "Năng lực cốt lõi | Khải Phú Construction",
+    "description": "Khải Phú chuyên sâu thi công hệ giằng chống Shoring, cừ Larsen, Kingpost và gia công kết cấu thép với năng lực triển khai linh hoạt."
+  },
+  "hero": {
+    "breadcrumb": "KHAI PHÚ / NĂNG LỰC CỐT LÕI",
+    "title": "NĂNG LỰC CỐT LÕI",
+    "sub": "Chuyên sâu trong lĩnh vực cừ Larsen, Kingpost và Hệ giằng chống (Shoring)"
+  },
+  "positioning": {
+    "label": "ĐỊNH VỊ",
+    "labelEn": "POSITIONING",
+    "body": "Khải Phú là đơn vị thi công chuyên sâu trong lĩnh vực cừ Larsen, Kingpost và hệ giằng chống (Shoring), với năng lực triển khai linh hoạt và kinh nghiệm thực tế tại công trường.",
+    "pills": ["Hệ giằng chống", "Larsen / Kingpost", "Gia công kết cấu"]
+  },
+  "mainCapabilities": {
+    "sectionTitle": "NĂNG LỰC THI CÔNG CHÍNH",
+    "items": [
+      {
+        "number": "01",
+        "label": "HỆ GIẰNG CHỐNG",
+        "labelEn": "SHORING",
+        "title": "HỆ GIẰNG CHỐNG (SHORING)",
+        "body": "Thi công hệ giằng chống shoring với khối lượng lớn, triển khai theo nhiều cấu hình",
+        "checklist": ["Khối lượng lớn", "1 lớp", "Nhiều lớp", "Chống xiên"]
+      },
+      {
+        "number": "02",
+        "label": "CỪ LARSEN",
+        "labelEn": "LARSEN PILE",
+        "title": "CỪ LARSEN / KINGPOST",
+        "body": "Thi công cừ Larsen/ Kingpost bằng Robot ép tĩnh và Xe đào bánh xích gắn búa rung",
+        "checklist": [
+          "Robot ép tĩnh (Silent Piler)",
+          "Xe đào bánh xích gắn búa rung"
+        ]
+      },
+      {
+        "number": "03",
+        "label": "RÚT KINGPOST",
+        "labelEn": "KINGPOST EXTRACTION",
+        "title": "RÚT KINGPOST",
+        "body": "Thi công rút Kingpost bằng thiết bị thủ công",
+        "checklist": ["Thiết bị thủ công", "Kích thủy lực"]
+      },
+      {
+        "number": "04",
+        "label": "GIA CÔNG THÉP",
+        "labelEn": "STEEL FABRICATION",
+        "title": "GIA CÔNG KẾT CẤU THÉP",
+        "body": "Gia công kết cấu thép phục vụ Hệ giằng chống (Shoring)",
+        "checklist": [
+          "Phục vụ Hệ giằng chống",
+          "Hàn nối Kingpost",
+          "Cắt đầu Kingpost"
+        ]
+      }
+    ]
+  },
+  "equipment": {
+    "sectionTitle": "NĂNG LỰC THIẾT BỊ THI CÔNG",
+    "callout": "Thiết bị được kiểm tra định kỳ, cam kết hiệu suất vận hành tối ưu và an toàn tuyệt đối tại công trường.",
+    "items": [
+      {
+        "title": "Robot ép cừ (Silent Piler)",
+        "desc": "Hệ thống ép cừ tĩnh, không rung động, phù hợp công trình đô thị"
+      },
+      {
+        "title": "Xe đào bánh xích gắn búa rung",
+        "desc": "Thi công cừ Larsen và Kingpost tại các công trường có không gian rộng"
+      },
+      {
+        "title": "Cẩu bánh lốp / bánh xích",
+        "desc": "Phục vụ cẩu lắp kết cấu thép hệ giằng chống tại công trường"
+      },
+      {
+        "title": "Kích thủy lực nhổ Kingpost",
+        "desc": "Thiết bị chuyên dụng nhổ Kingpost bằng phương pháp thủ công"
+      },
+      {
+        "title": "Máy hàn, súng xiết bulong & thiết bị phụ trợ",
+        "desc": "Hỗ trợ gia công, lắp dựng và hoàn thiện kết cấu tại công trường"
+      }
+    ]
+  },
+  "deployment": {
+    "sectionTitle": "KHẢ NĂNG TRIỂN KHAI",
+    "subtitle": "Linh hoạt — Đúng tiến độ — Hiệu quả",
+    "items": [
+      {
+        "number": "01",
+        "name": "THI CÔNG SONG SONG",
+        "desc": "Đáp ứng chất lượng - tiến độ dự án"
+      },
+      {
+        "number": "02",
+        "name": "NGUỒN LỰC LINH HOẠT",
+        "desc": "Huy động nhanh thiết bị và nhân lực theo yêu cầu công trường"
+      },
+      {
+        "number": "03",
+        "name": "PHỐI HỢP HIỆU QUẢ",
+        "desc": "Phối hợp trực tiếp với tổng thầu trong quá trình thi công"
+      },
+      {
+        "number": "04",
+        "name": "ĐẢM BẢO TIẾN ĐỘ",
+        "desc": "Chủ động xử lý các tình huống thực tế và yêu cầu tiến độ gấp"
+      }
+    ]
+  },
+  "safety": {
+    "sectionTitle": "AN TOÀN & KIỂM SOÁT THI CÔNG",
+    "nodes": [
+      {
+        "number": "01",
+        "name": "THI CÔNG",
+        "desc": "Thi công đúng biện pháp theo thiết kế được phê duyệt"
+      },
+      {
+        "number": "02",
+        "name": "KIỂM SOÁT",
+        "desc": "Kiểm soát ổn định hệ cừ Larsen và Hệ giằng chống (Shoring)"
+      },
+      {
+        "number": "03",
+        "name": "ĐẢM BẢO",
+        "desc": "Hạn chế chuyển vị, giảm thiểu ảnh hưởng đến công trình"
+      },
+      {
+        "number": "04",
+        "name": "AN TOÀN",
+        "desc": "Đảm bảo an toàn trong quá trình thi công và kiểm tra thiết bị trước khi vận hành"
+      },
+      {
+        "number": "05",
+        "name": "CHẤT LƯỢNG",
+        "desc": "Đảm bảo chất lượng thi công và yêu cầu kỹ thuật"
+      }
+    ]
+  }
+}

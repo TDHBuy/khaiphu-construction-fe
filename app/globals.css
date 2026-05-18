@@ -53,6 +53,11 @@
   --color-neutral-800: #1f2937;
   --color-neutral-900: #111827;
 
+  /* Extended brand tokens */
+  --color-navy-deeper: #051f44;
+  --color-grey-bg: #f4f6fa;
+  --color-text-mid: #3a4a5c;
+
   /* Semantic colors */
   --color-success: #10b981;
   --color-warning: #f59e0b;
