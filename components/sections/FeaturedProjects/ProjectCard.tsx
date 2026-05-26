@@ -4,6 +4,7 @@ import { ArrowUpRight, MapPin } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
+
 interface ProjectCardProps {
   slug: string;
   title: string;
@@ -27,41 +28,38 @@ export function ProjectCard({
   return (
     <Link
       href={`/du-an/${slug}`}
-      className="group relative flex h-[480px] w-[340px] shrink-0 flex-col overflow-hidden rounded-lg md:h-[560px] md:w-[420px]"
+      className="group flex shrink-0 flex-col overflow-hidden rounded-lg bg-white shadow-sm transition-shadow duration-300 hover:shadow-lg
+        w-[318px]
+        md:w-[440px]
+        lg:w-[392px]"
     >
-      {/* Image */}
-      <Image
-        src={image}
-        alt={title}
-        fill
-        sizes="(max-width: 768px) 340px, 420px"
-        className="object-cover transition-transform duration-700 group-hover:scale-110"
-      />
-
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-primary-900 via-primary-900/40 to-transparent" />
-
-      {/* Top metadata */}
-      <div className="relative z-10 flex items-start justify-between p-6">
-        <span className="bg-accent-500 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-primary-900">
-          {tNav(serviceType)}
+      {/* Thumbnail */}
+      <div className="relative h-[220px] overflow-hidden md:h-[280px] lg:h-[260px]">
+        <Image
+          src={image}
+          alt={title}
+          fill
+          sizes="(max-width: 768px) 318px, (max-width: 1024px) 440px, 392px"
+          className="object-cover transition-transform duration-700 group-hover:scale-105"
+          priority={false}
+        />
+        <span className="absolute left-4 top-4 bg-accent-500 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-white">
+          {serviceType}
         </span>
-        <span className="font-display font-bold text-white/80">{year}</span>
       </div>
 
-      {/* Bottom content */}
-      <div className="relative z-10 mt-auto p-6">
-        <div className="flex items-center gap-2 text-sm text-white/80">
-          <MapPin size={14} />
+      {/* Content below image */}
+      <div className="flex flex-col gap-2 p-5">
+        <div className="flex items-center gap-1.5 text-xs font-medium text-primary-500">
+          <MapPin size={12} />
           <span>{location}</span>
         </div>
-        <h3 className="mt-3 font-display text-xl font-bold text-white md:text-2xl">
+        <h3 className="font-display text-lg font-bold leading-snug text-primary-900 md:text-xl">
           {title}
         </h3>
-
-        <div className="mt-5 flex items-center gap-2 text-sm font-semibold text-accent-400 opacity-0 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0 translate-x-[-10px]">
+        <div className="mt-1 flex items-center gap-1.5 text-xs font-semibold text-accent-600 opacity-0 transition-all duration-300 group-hover:opacity-100">
           <span>{tProjects("view_detail")}</span>
-          <ArrowUpRight size={16} />
+          <ArrowUpRight size={14} />
         </div>
       </div>
     </Link>
