@@ -4,21 +4,80 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 @AGENTS.md
 
-### References
+## Commands
 
-See @.claude/docs/HSNL.pdf for project pages content
+```bash
+npm run dev       # start dev server (localhost:3000)
+npm run build     # production build
+npm run lint      # ESLint
+npx tsc --noEmit  # type-check only (no test runner configured)
+```
+
+## Architecture
+
+### Routing & i18n
+
+Next.js 16 App Router with `next-intl` v4. Two locales: `vi` (Vietnamese) and `en` (English). Default locale is `en` served without a prefix (`localePrefix: 'as-needed'`).
+
+- All pages live under `app/[locale]/` — locale is resolved in `app/[locale]/layout.tsx`
+- Translation namespaces are loaded per-request in `i18n/request.ts` and served via `<NextIntlClientProvider>`
+- Translation files: `lang/{vi,en}/*.json` and `lang/{vi,en}/about/*.json`
+- Navigation helpers use `i18n/navigation.ts` (typed Link, useRouter, etc. wrapping next-intl)
+- Route path constants live in `constants/routes.ts` — always use these instead of hardcoded strings
+
+### Data Layer
+
+Repository → Service → Page Server Component (no client-side fetching).
+
+```
+lib/supabase/server.ts          createClient() — SSR Supabase client via cookies
+lib/repositories/               raw Supabase queries, typed with Database["public"]["Tables"]
+lib/services/                   thin orchestration layer over repositories
+lib/types/database.types.ts     generated Supabase types (source of truth for DB shape)
+lib/mock-data/                  typed mock rows matching database.types.ts (for dev/fallback)
+```
+
+The repository always selects `project_images(id, url, "order", is_cover, alt_text)` via a nested select — images are always fetched with their parent project, never separately.
+
+### Bilingual Data Convention
+
+Database columns come in `_vi` / `_en` pairs (`title_vi`, `title_en`, `description_vi`, `description_en`, etc.). The `_vi` field is always required; `_en` is nullable. `location` and `location_en` are both required strings.
+
+### Service Types
+
+`service_type` on `projects` is a `string[]` column validated by the DB function `is_valid_service_type`. The three valid values — also used in `constants/service.ts` and `constants/routes.ts` — are:
+
+- `"shoringConstruction"`
+- `"larsenPile"`
+- `"kingpostFabrication"`
+
+### project_images.order — Fractional Indexing
+
+`order` is `double precision` (not integer) to allow single-row updates when reordering. To insert between two positions use `(prevOrder + nextOrder) / 2`. Renormalize to consecutive integers periodically as a background task when precision nears floating-point limits (~1e-15 gap).
+
+### Components
+
+- `components/sections/` — full-page sections composed into page files (Hero, Services, FeaturedProjects, etc.)
+- `components/layout/` — Header and Footer (always in the locale layout)
+- `components/shared/` — animation wrappers (AnimatedSection, PageTransition, RevealOnScroll, StaggerContainer) and SectionLabel
+- `components/ui/` — shadcn/ui primitives; add new ones with `npx shadcn add <component>`
+
+### Styling
+
+Tailwind CSS v4 via `@tailwindcss/postcss`. All design tokens (brand navy `#0A4D9C`, accent yellow `#FFCB05`, neutrals) are declared as CSS custom properties inside `@theme {}` in `app/globals.css`. Dark mode uses `prefers-color-scheme: dark` automatically — no class toggling needed. Fonts: `Be_Vietnam_Pro` + `Inter` (Google Fonts, injected on `<html>` by the locale layout).
 
 ### Key Breaking Changes from Prior Next.js
 
-This version has significant API differences. Before writing any code, read the relevant guide in `node_modules/next/dist/docs/`. The most important changes:
+This version has significant API differences. Before writing any code, read the relevant guide in `node_modules/next/dist/docs/`.
 
 - **Caching model is inverted**: pages are dynamic by default. Route segment configs (`dynamic`, `revalidate`, `fetchCache`) are replaced by the `use cache` directive and `cacheLife()` function when `cacheComponents` is enabled in `next.config.ts`.
 - **Instant navigation requires `unstable_instant`**: routes using Suspense boundaries with cached data must export `unstable_instant` — without it, navigations silently block. See `node_modules/next/dist/docs/01-app/02-guides/instant-navigation.md`.
 - The hint in `node_modules/next/dist/docs/index.md` flags slow navigations as a common pitfall.
 
-### Styling
+### References
 
-Tailwind CSS v4 via `@tailwindcss/postcss`. Theme tokens are defined as CSS custom properties in `app/globals.css` and switch automatically with `prefers-color-scheme: dark`. Font variables (`--font-geist-sans`, `--font-geist-mono`) are injected on `<html>` by the root layout.
+- Project portfolio content (slides): `.claude/docs/HSNL.pdf`
+- Supabase local: `supabase/` (migrations in `supabase/migrations/`, seed in `supabase/seed.sql`)
 
 <!-- rtk-instructions v2 -->
 

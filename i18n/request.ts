@@ -14,9 +14,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
     allHeaders.push(`${key}: ${value}`);
   });
 
-  if (process.env.NODE_ENV === "development") {
-    console.log("[Request] ALL HEADERS:\n" + allHeaders.join("\n"));
-  }
+  // if (process.env.NODE_ENV === "development") {
+  //   console.log("[Request] ALL HEADERS:\n" + allHeaders.join("\n"));
+  // }
   // Global namespaces — loaded on every request
   const messages: Record<string, object> = {
     common: (await import(`../lang/${locale}/common.json`)).default,
@@ -29,7 +29,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
     visionMission: (await import(`../lang/${locale}/about/vision-mission.json`))
       .default,
     partners: (await import(`../lang/${locale}/about/partners.json`)).default,
-    coreCompetencies: (await import(`../lang/${locale}/about/core-competencies.json`)).default,
+    coreCompetencies: (
+      await import(`../lang/${locale}/about/core-competencies.json`)
+    ).default,
+    projects: (await import(`../lang/${locale}/projects/dashboard.json`))
+      .default,
   };
   return { locale, messages };
 });

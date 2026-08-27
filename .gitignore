@@ -45,3 +45,7 @@ next-env.d.ts
 
 # Claude Code
 .claude/
+
+#supabase
+.supabase/
+lib/types/database.types.ts
